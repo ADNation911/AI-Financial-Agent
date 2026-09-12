@@ -10,7 +10,13 @@ from message_parser import parse_all_messages
 class FinancialForecaster:
     def __init__(self, data_loader):
         self.dl = data_loader
-        self.user_salaries, self.event_overrides = parse_all_messages(self.dl.messages_path)
+        (self.user_salaries, 
+         self.unconfirmed_gig_users, 
+         self.ended_employment_users, 
+         self.rent_increase_users, 
+         self.childcare_users, 
+         self.event_overrides) = parse_all_messages(self.dl.messages_path)
+        
         with open('code/extracted_image_amounts.json', 'r', encoding='utf-8') as f:
             self.image_amounts = json.load(f)
 
@@ -51,21 +57,27 @@ class FinancialForecaster:
             if len(group) < 2:
                 continue
 
+            # Ended employment check for salary
+            if category == 'salary' and user_id in self.ended_employment_users and direction == 'credit':
+                continue
+
+            # Unconfirmed gig payouts check
+            if user_id in self.unconfirmed_gig_users and direction == 'credit':
+                desc_lower = group['description'].str.lower().str.cat(sep=' ')
+                if any(g in desc_lower for g in ['quickcrew', 'taskloop', 'ridegrid', 'workdash', 'shiftpay', 'tasksprint', 'app earnings', 'marketplace payout', 'platform payout', 'payout']):
+                    continue
+
             # For salary credits, separate recurring payroll from one-time bonuses/arrears/commissions
             if category == 'salary' and direction == 'credit':
                 desc_lower = group['description'].str.lower()
-                # Identify the primary recurring pattern by most common description keyword
                 payroll_mask = desc_lower.str.contains('payroll|base salary|net salary|monthly salary', na=False)
                 commission_mask = desc_lower.str.contains('commission|bonus|arrears|performance|sales', na=False)
                 platform_mask = desc_lower.str.contains('platform|marketplace|app earnings|driver|delivery|payout|weekly', na=False)
                 
-                # If we have payroll entries, use those as the primary recurring salary
                 if payroll_mask.sum() >= 2:
                     group = group[payroll_mask].copy()
                 elif platform_mask.sum() >= 2:
-                    # Gig worker with multiple platform payouts - use all platform payouts
                     group = group[platform_mask].copy()
-                # Otherwise, if we have a mix of regular and one-off, try to identify the regular ones
                 elif commission_mask.sum() > 0 and (~commission_mask).sum() >= 2:
                     group = group[~commission_mask].copy()
                 
@@ -78,7 +90,16 @@ class FinancialForecaster:
             latest_row = group.iloc[-1]
             latest_amt = latest_row['resolved_amt']
             median_amt = group['resolved_amt'].median()
-            proj_amt = latest_amt if category == 'salary' else median_amt
+            
+            # Use median amount to avoid single arrears/bonus spikes
+            proj_amt = median_amt if (category == 'salary' and len(group) > 2) else latest_amt
+            if category != 'salary':
+                proj_amt = median_amt
+
+            # Rent increase check
+            if category == 'rent' and direction == 'debit' and user_id in self.rent_increase_users:
+                proj_amt = proj_amt * 1.12
+
             last_date = latest_row['parsed_date'].date()
             
             is_final_salary = (category == 'salary' and 'final' in str(latest_row['description']).lower())
@@ -149,6 +170,10 @@ class FinancialForecaster:
                     eff_d = datetime.strptime(salary_update['effective_date'], '%Y-%m-%d').date()
                     if e_date >= eff_d:
                         amt = salary_update['new_salary']
+
+                # Rent increase
+                if category == 'rent' and direction == 'debit' and user_id in self.rent_increase_users:
+                    amt = amt * 1.12
 
                 amt_home = self.convert_amount(amt, row['currency'], home_curr, e_date_str[:10])
                 
@@ -393,7 +418,7 @@ class FinancialForecaster:
                     'completes_by_deadline': True,
                     'requires_spending_changes': False,
                     'option_id': '0_partial',
-                    'method_rank': 2
+                    'method_rank': 1.5
                 })
 
         # Option C: installments
@@ -513,6 +538,7 @@ class FinancialForecaster:
                 not p['completes_by_deadline'],
                 p['requires_spending_changes'],
                 p['total_cost'],
+                p['method_rank'],
                 p['start_date'],
                 p['num_payments'],
                 p['option_id']
