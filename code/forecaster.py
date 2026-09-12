@@ -169,9 +169,7 @@ class FinancialForecaster:
                 explicit_months_by_cat.add((category, direction, e_date.year, e_date.month))
                 amt = self.resolve_event_amount(row)
                 if category == 'salary' and salary_update is not None:
-                    eff_d = datetime.strptime(salary_update['effective_date'], '%Y-%m-%d').date()
-                    if e_date >= eff_d:
-                        amt = salary_update['new_salary']
+                    amt = salary_update['new_salary']
 
                 # Rent increase
                 if category == 'rent' and direction == 'debit' and user_id in self.rent_increase_users:
@@ -223,9 +221,7 @@ class FinancialForecaster:
                     if proj_date >= start_date and proj_date <= end_date:
                         amt = p['median_amt']
                         if cat == 'salary' and salary_update is not None:
-                            eff_d = datetime.strptime(salary_update['effective_date'], '%Y-%m-%d').date()
-                            if proj_date >= eff_d:
-                                amt = salary_update['new_salary']
+                            amt = salary_update['new_salary']
                                 
                         amt_home = self.convert_amount(amt, p['currency'], home_curr, proj_date.strftime('%Y-%m-%d'))
                         
