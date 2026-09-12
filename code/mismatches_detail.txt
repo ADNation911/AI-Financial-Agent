@@ -1,6 +1,6 @@
 === request_03 (user_03) Mismatches: ['plan', 'earliest'] ===
    Req Date: 2019-09-03 | Req Amt: 5491000.0 | Desired: 2019-11-15
-   PRED:     status=affordable_later, method=wait, safe=1118818.1849999996, plan=2019-10-15:5491000, earliest=2019-10-15, spending=none
+   PRED:     status=affordable_later, method=wait, safe=1118818.185, plan=2019-10-15:5491000, earliest=2019-10-15, spending=none
    EXPECTED: status=affordable_later, method=wait, safe=873000.0, plan=2019-11-15:5491000, earliest=2019-11-15, spending=none
 ----------------------------------------------------------------------
 === request_06 (user_06) Mismatches: ['status', 'earliest', 'spending'] ===
@@ -10,8 +10,13 @@
 ----------------------------------------------------------------------
 === request_07 (user_07) Mismatches: ['earliest'] ===
    Req Date: 2024-09-05 | Req Amt: 197400.0 | Desired: 2024-11-14
-   PRED:     status=affordable_with_plan, method=installments, safe=102240.88, plan=2024-09-12:68432|2024-10-10:68432|2024-11-07:68432, earliest=2024-10-15, spending=none
+   PRED:     status=affordable_with_plan, method=installments, safe=94960.66, plan=2024-09-12:68432|2024-10-10:68432|2024-11-07:68432, earliest=2024-10-15, spending=none
    EXPECTED: status=affordable_with_plan, method=installments, safe=87170.56, plan=2024-09-12:68432|2024-10-10:68432|2024-11-07:68432, earliest=2024-10-23, spending=none
+----------------------------------------------------------------------
+=== request_08 (user_08) Mismatches: ['status', 'method', 'plan', 'earliest'] ===
+   Req Date: 2025-02-07 | Req Amt: 996.6 | Desired: 2025-04-15
+   PRED:     status=not_affordable, method=not_recommended, safe=380.125, plan=none, earliest=, spending=none
+   EXPECTED: status=affordable_later, method=wait, safe=284.57, plan=2025-04-15:996.60, earliest=2025-04-15, spending=none
 ----------------------------------------------------------------------
 === request_10 (user_10) Mismatches: ['earliest'] ===
    Req Date: 2024-12-06 | Req Amt: 266700.0 | Desired: 2025-02-10
@@ -25,7 +30,7 @@
 ----------------------------------------------------------------------
 === request_13 (user_13) Mismatches: ['status', 'method', 'plan', 'earliest'] ===
    Req Date: 2024-03-07 | Req Amt: 941.6 | Desired: 2024-05-15
-   PRED:     status=not_affordable, method=not_recommended, safe=656.649999999999, plan=none, earliest=, spending=none
+   PRED:     status=not_affordable, method=not_recommended, safe=493.8899999999985, plan=none, earliest=, spending=none
    EXPECTED: status=affordable_later, method=wait, safe=433.4, plan=2024-05-15:941.60, earliest=2024-05-15, spending=none
 ----------------------------------------------------------------------
 === request_19 (user_19) Mismatches: ['method', 'plan', 'earliest'] ===

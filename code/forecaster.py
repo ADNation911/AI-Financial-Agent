@@ -50,6 +50,27 @@ class FinancialForecaster:
             group = group.sort_values('parsed_date')
             if len(group) < 2:
                 continue
+
+            # For salary credits, separate recurring payroll from one-time bonuses/arrears/commissions
+            if category == 'salary' and direction == 'credit':
+                desc_lower = group['description'].str.lower()
+                # Identify the primary recurring pattern by most common description keyword
+                payroll_mask = desc_lower.str.contains('payroll|base salary|net salary|monthly salary', na=False)
+                commission_mask = desc_lower.str.contains('commission|bonus|arrears|performance|sales', na=False)
+                platform_mask = desc_lower.str.contains('platform|marketplace|app earnings|driver|delivery|payout|weekly', na=False)
+                
+                # If we have payroll entries, use those as the primary recurring salary
+                if payroll_mask.sum() >= 2:
+                    group = group[payroll_mask].copy()
+                elif platform_mask.sum() >= 2:
+                    # Gig worker with multiple platform payouts - use all platform payouts
+                    group = group[platform_mask].copy()
+                # Otherwise, if we have a mix of regular and one-off, try to identify the regular ones
+                elif commission_mask.sum() > 0 and (~commission_mask).sum() >= 2:
+                    group = group[~commission_mask].copy()
+                
+                if len(group) < 2:
+                    continue
                 
             group['days_diff'] = group['parsed_date'].diff().dt.days
             median_gap = group['days_diff'].median()
@@ -172,7 +193,7 @@ class FinancialForecaster:
                     except ValueError:
                         continue
                         
-                    if proj_date > start_date and proj_date <= end_date:
+                    if proj_date >= start_date and proj_date <= end_date:
                         amt = p['median_amt']
                         if cat == 'salary' and salary_update is not None:
                             eff_d = datetime.strptime(salary_update['effective_date'], '%Y-%m-%d').date()
@@ -195,7 +216,7 @@ class FinancialForecaster:
                 last_d = p['last_date']
                 proj_date = last_d + timedelta(days=gap)
                 while proj_date <= end_date:
-                    if proj_date > start_date:
+                    if proj_date >= start_date:
                         amt_home = self.convert_amount(p['median_amt'], p['currency'], home_curr, proj_date.strftime('%Y-%m-%d'))
                         if direction == 'credit':
                             daily_inflows[proj_date] += amt_home
@@ -402,7 +423,7 @@ class FinancialForecaster:
                             'affordability_status': 'affordable_with_plan',
                             'recommended_payment_method': 'installments',
                             'payment_plan': '|'.join(p_str_list),
-                            'earliest_date_for_full_payment': earliest_full_date if earliest_full_date else req_date_str,
+                            'earliest_date_for_full_payment': earliest_full_date if earliest_full_date else '',
                             'spending_changes_needed': 'none',
                             'total_cost': float(opt['total_payable_amount']),
                             'num_payments': num_pay,
@@ -415,7 +436,7 @@ class FinancialForecaster:
                         })
 
         # Option D: wait
-        if 'full_payment' in considered_methods and earliest_full_date and datetime.strptime(earliest_full_date, '%Y-%m-%d').date() <= desired_comp_obj:
+        if 'full_payment' in considered_methods and earliest_full_date and datetime.strptime(earliest_full_date, '%Y-%m-%d').date() > req_date_obj and datetime.strptime(earliest_full_date, '%Y-%m-%d').date() <= desired_comp_obj:
             candidate_plans.append({
                 'affordability_status': 'affordable_later',
                 'recommended_payment_method': 'wait',
@@ -431,29 +452,35 @@ class FinancialForecaster:
                 'method_rank': 4
             })
 
-        if candidate_plans:
-            best_plan = self.rank_candidate_plans(candidate_plans)
-            best_plan['amount_safe_to_pay'] = amount_safe
-            best_plan['decision_explanation'] = self.generate_explanation(profile, best_plan, req_amt)
-            return best_plan
-
-        # Try spending changes if no base plan worked
+        # Try spending changes proactively - may produce better plans
         sp_changes, sp_str, sp_desc = self.find_spending_changes_needed(user_id, req_date_str, req_amt)
         if sp_changes:
             amt_safe_sp = self.calculate_amount_safe_to_pay(user_id, req_date_str, req_amt, spending_changes=sp_changes)
+            earliest_sp = self.calculate_earliest_date_for_full_payment(user_id, req_date_str, req_amt, spending_changes=sp_changes)
+            
+            # full_payment with spending changes
             if amt_safe_sp >= req_amt and 'full_payment' in considered_methods:
-                earliest_sp = self.calculate_earliest_date_for_full_payment(user_id, req_date_str, req_amt, spending_changes=sp_changes)
-                plan = {
-                    'amount_safe_to_pay': amount_safe,
+                candidate_plans.append({
                     'affordability_status': 'affordable_with_plan',
                     'recommended_payment_method': 'full_payment',
                     'payment_plan': f"{req_date_str}:{self.format_amt(req_amt)}",
                     'earliest_date_for_full_payment': earliest_sp if earliest_sp else req_date_str,
                     'spending_changes_needed': sp_str,
-                    'spending_desc': sp_desc
-                }
-                plan['decision_explanation'] = self.generate_explanation(profile, plan, req_amt)
-                return plan
+                    'spending_desc': sp_desc,
+                    'total_cost': req_amt,
+                    'num_payments': 1,
+                    'start_date': req_date_str,
+                    'completes_by_deadline': True,
+                    'requires_spending_changes': True,
+                    'option_id': '0_full_sp',
+                    'method_rank': 1
+                })
+
+        if candidate_plans:
+            best_plan = self.rank_candidate_plans(candidate_plans)
+            best_plan['amount_safe_to_pay'] = amount_safe
+            best_plan['decision_explanation'] = self.generate_explanation(profile, best_plan, req_amt)
+            return best_plan
 
         formatted_date = datetime.strptime(desired_comp_str, '%Y-%m-%d').strftime('%d %B %Y').lstrip('0')
         return {
@@ -487,7 +514,6 @@ class FinancialForecaster:
                 p['requires_spending_changes'],
                 p['total_cost'],
                 p['start_date'],
-                p['method_rank'],
                 p['num_payments'],
                 p['option_id']
             )
