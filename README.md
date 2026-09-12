@@ -83,10 +83,10 @@ python code/evaluation/main.py
 
 The agent was benchmarked against sample evaluation requests:
 
-- **Recommended Payment Method Accuracy**: **92.0%**
-- **Payment Plan Structure Accuracy**: **88.0%**
+- **Recommended Payment Method Accuracy**: **88.0%**
+- **Payment Plan Structure Accuracy**: **84.0%**
 - **Flexible Spending Changes Accuracy**: **88.0%**
-- **Affordability Status Accuracy**: **84.0%**
+- **Affordability Status Accuracy**: **80.0%**
 
 ---
 
