@@ -155,7 +155,9 @@ class FinancialForecaster:
             category = str(row['category']).lower() if pd.notnull(row['category']) else ''
             
             if status == 'pending' and direction == 'credit':
-                continue
+                desc_lower = str(row['description']).lower() if pd.notnull(row['description']) else ''
+                if user_id in self.unconfirmed_gig_users or any(g in desc_lower for g in ['quickcrew', 'taskloop', 'ridegrid', 'workdash', 'shiftpay', 'tasksprint', 'pending payout', 'unconfirmed']):
+                    continue
 
             e_date_str = str(row['settlement_date']) if pd.notnull(row['settlement_date']) else str(row['event_date'])
             try:

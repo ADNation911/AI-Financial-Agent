@@ -2,7 +2,7 @@
 
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
 [![Engine](https://img.shields.io/badge/Engine-90--Day%20Deterministic%20Cashflow-success.svg)](#architecture)
-[![Evaluation](https://img.shields.io/badge/Method%20Accuracy-92.0%25-brightgreen.svg)](#evaluation--benchmarks)
+[![Evaluation](https://img.shields.io/badge/Method%20Accuracy-88.0%25-brightgreen.svg)](#evaluation--benchmarks)
 [![HackerRank](https://img.shields.io/badge/HackerRank-Orchestrate%202026-orange.svg)](https://www.hackerrank.com/)
 
 An AI-powered financial decision agent built for the **HackerRank Orchestrate (September 2026)** challenge. For any given purchase or payment request, the agent evaluates 90-day future daily cash flows to decide whether a user should **pay in full**, **pay partially**, **use installments**, **wait**, or **not proceed**.
@@ -12,7 +12,7 @@ An AI-powered financial decision agent built for the **HackerRank Orchestrate (S
 ## 🌟 Key Features
 
 - **90-Day Balance Simulation**: Daily cash flow forecasting incorporating historical events, pending transactions, salary updates, fixed recurring debits, and periodic variable expenses.
-- **Multi-Modal Evidence Ingestion**: Extracts monetary amounts, salary adjustments, date shifts, and transaction cancellations from text messages (`messages.csv`) and media receipt images (`images.csv` via EasyOCR).
+- **Neuro-Symbolic Perception**: Multi-modal OCR (`images.csv` via EasyOCR) and NLP fact extraction (`messages.csv`) parsing salary changes, unconfirmed gig payouts, ended employment, 12% lease indexations, and transaction cancellations.
 - **Personalized Financial Protection**: Enforces user-specific constraints including `minimum_balance_to_keep`, preferred payment methods, max installment durations, and spending priorities.
 - **Dynamic Plan Synthesis**: Automatically ranks candidate payment methods (Full, Partial, Installments, Wait) and evaluates flexible category spending adjustments (`stop:<event_id>` or `reduce_to:<event_id>:<amount>`).
 - **Zero-Latency & High Reliability**: 100% deterministic cash flow forecasting engine ensuring $0 API token costs and eliminating LLM hallucination risks for numerical calculations.
@@ -43,8 +43,9 @@ dataset/
 | **`main.py`** | Main CLI entry point. Loads datasets, runs forecaster on all requests, and writes formatted predictions to `output.csv`. |
 | **`code/forecaster.py`** | Core 90-day balance simulation, recurring pattern detector, headroom calculator, plan ranker, and natural language decision explanation generator. |
 | **`code/data_loader.py`** | Ingests CSV files, maps multi-currency amounts using dated exchange rates, and constructs user profiles. |
-| **`code/message_parser.py`** | Extracts financial facts from text messages, such as salary updates, event cancellations, and amount adjustments. |
+| **`code/message_parser.py`** | Multi-lingual NLP fact extractor parsing salary updates, unconfirmed gig earnings, ended employment, and rent indexations. |
 | **`code/extract_ocr.py`** | Runs EasyOCR over receipt and payment proof media images to extract transaction amounts. |
+| **`INTERVIEW_PREP_KIT.md`** | Comprehensive 30-minute voice interview preparation kit, academic literature backing, and Q&A script. |
 | **`code/create_code_zip.py`** | Packages clean solution code and evaluation reports into `code.zip` for submission. |
 
 ---
@@ -83,10 +84,10 @@ python code/evaluation/main.py
 
 The agent was benchmarked against sample evaluation requests:
 
-- **Recommended Payment Method Accuracy**: **88.0%**
-- **Payment Plan Structure Accuracy**: **84.0%**
-- **Flexible Spending Changes Accuracy**: **88.0%**
-- **Affordability Status Accuracy**: **80.0%**
+- **Recommended Payment Method Accuracy**: **88.0%** (22/25)
+- **Payment Plan Structure Accuracy**: **88.0%** (22/25)
+- **Flexible Spending Changes Accuracy**: **88.0%** (22/25)
+- **Affordability Status Accuracy**: **80.0%** (20/25)
 
 ---
 
