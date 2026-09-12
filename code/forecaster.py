@@ -215,6 +215,12 @@ class FinancialForecaster:
                     dom = min(p['day_of_month'], 28)
                     try:
                         proj_date = datetime(y, m, dom).date()
+                        # Weekend adjustment for salary credits (Temporal Point Process)
+                        if cat == 'salary' and direction == 'credit':
+                            if proj_date.weekday() == 5: # Saturday
+                                proj_date = proj_date - timedelta(days=1)
+                            elif proj_date.weekday() == 6: # Sunday
+                                proj_date = proj_date - timedelta(days=2)
                     except ValueError:
                         continue
                         
