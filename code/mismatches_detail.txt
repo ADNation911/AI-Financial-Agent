@@ -1,0 +1,40 @@
+=== request_03 (user_03) Mismatches: ['plan', 'earliest'] ===
+   Req Date: 2019-09-03 | Req Amt: 5491000.0 | Desired: 2019-11-15
+   PRED:     status=affordable_later, method=wait, safe=1118818.1849999996, plan=2019-10-15:5491000, earliest=2019-10-15, spending=none
+   EXPECTED: status=affordable_later, method=wait, safe=873000.0, plan=2019-11-15:5491000, earliest=2019-11-15, spending=none
+----------------------------------------------------------------------
+=== request_06 (user_06) Mismatches: ['status', 'earliest', 'spending'] ===
+   Req Date: 2026-01-03 | Req Amt: 620.4 | Desired: 2026-01-14
+   PRED:     status=affordable_now, method=full_payment, safe=620.4, plan=2026-01-03:620.40, earliest=2026-01-03, spending=none
+   EXPECTED: status=affordable_with_plan, method=full_payment, safe=603.3, plan=2026-01-03:620.40, earliest=2026-01-15, spending=stop:event_476
+----------------------------------------------------------------------
+=== request_07 (user_07) Mismatches: ['earliest'] ===
+   Req Date: 2024-09-05 | Req Amt: 197400.0 | Desired: 2024-11-14
+   PRED:     status=affordable_with_plan, method=installments, safe=102240.88, plan=2024-09-12:68432|2024-10-10:68432|2024-11-07:68432, earliest=2024-10-15, spending=none
+   EXPECTED: status=affordable_with_plan, method=installments, safe=87170.56, plan=2024-09-12:68432|2024-10-10:68432|2024-11-07:68432, earliest=2024-10-23, spending=none
+----------------------------------------------------------------------
+=== request_10 (user_10) Mismatches: ['earliest'] ===
+   Req Date: 2024-12-06 | Req Amt: 266700.0 | Desired: 2025-02-10
+   PRED:     status=not_affordable, method=not_recommended, safe=266700.0, plan=none, earliest=2024-12-06, spending=none
+   EXPECTED: status=not_affordable, method=not_recommended, safe=12700.0, plan=none, earliest=, spending=none
+----------------------------------------------------------------------
+=== request_11 (user_11) Mismatches: ['status', 'earliest', 'spending'] ===
+   Req Date: 2025-05-03 | Req Amt: 13110000.0 | Desired: 2025-06-12
+   PRED:     status=affordable_now, method=full_payment, safe=13110000.0, plan=2025-05-03:13110000, earliest=2025-05-03, spending=none
+   EXPECTED: status=affordable_with_plan, method=full_payment, safe=12510645.0, plan=2025-05-03:13110000, earliest=2025-07-15, spending=reduce_to:event_989:665950
+----------------------------------------------------------------------
+=== request_13 (user_13) Mismatches: ['status', 'method', 'plan', 'earliest'] ===
+   Req Date: 2024-03-07 | Req Amt: 941.6 | Desired: 2024-05-15
+   PRED:     status=not_affordable, method=not_recommended, safe=656.649999999999, plan=none, earliest=, spending=none
+   EXPECTED: status=affordable_later, method=wait, safe=433.4, plan=2024-05-15:941.60, earliest=2024-05-15, spending=none
+----------------------------------------------------------------------
+=== request_19 (user_19) Mismatches: ['method', 'plan', 'earliest'] ===
+   Req Date: 2024-09-04 | Req Amt: 39660.0 | Desired: 2024-10-04
+   PRED:     status=affordable_with_plan, method=installments, safe=39660.0, plan=2024-09-04:20623.20|2024-10-02:20623.20, earliest=2024-09-04, spending=none
+   EXPECTED: status=affordable_with_plan, method=partial_payment, safe=28820.0, plan=2024-09-04:28820|2024-09-15:10840, earliest=2024-09-15, spending=none
+----------------------------------------------------------------------
+=== request_21 (user_21) Mismatches: ['status', 'earliest', 'spending'] ===
+   Req Date: 2026-04-03 | Req Amt: 1574.4 | Desired: 2026-04-14
+   PRED:     status=affordable_now, method=full_payment, safe=1574.4, plan=2026-04-03:1574.40, earliest=2026-04-03, spending=none
+   EXPECTED: status=affordable_with_plan, method=full_payment, safe=1543.35, plan=2026-04-03:1574.40, earliest=2026-04-15, spending=stop:event_1815|reduce_to:event_1816:23.50
+----------------------------------------------------------------------

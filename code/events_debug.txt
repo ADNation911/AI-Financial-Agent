@@ -1,0 +1,855 @@
+=== USER: user_01 ===
+Profile: Curr=ZAR, StartBal=58481.1, MinBal=18000
+Considered Methods: full_payment
+Reducible: dining | Stoppable: delivery_membership
+Events:
+  [event_01] Date:2023-10-02 Settled:2023-10-02 Status:settled Cat:rent Dir:debit Amt:ZAR 5148.0 Flex:fixed Desc:Apartment rent transfer
+  [event_02] Date:2023-10-06 Settled:2023-10-06 Status:settled Cat:utilities Dir:debit Amt:ZAR 1475.46 Flex:fixed Desc:Household utility payment
+  [event_03] Date:2023-10-08 Settled:2023-10-08 Status:settled Cat:education Dir:debit Amt:ZAR 1821.6 Flex:fixed Desc:Professional training fee
+  [event_04] Date:2023-10-11 Settled:2023-10-11 Status:settled Cat:debt_repayment Dir:debit Amt:ZAR 3487.0 Flex:fixed Desc:Education loan instalment
+  [event_05] Date:2023-10-11 Settled:2023-10-11 Status:settled Cat:music_subscription Dir:debit Amt:ZAR 235.4 Flex:fixed Desc:Music service subscription
+  [event_06] Date:2023-10-13 Settled:2023-10-13 Status:settled Cat:delivery_membership Dir:debit Amt:ZAR 306.9 Flex:stoppable Desc:Delivery service plan
+  [event_07] Date:2023-11-02 Settled:2023-11-02 Status:settled Cat:rent Dir:debit Amt:ZAR 5148.0 Flex:fixed Desc:Apartment rent transfer
+  [event_08] Date:2023-11-06 Settled:2023-11-06 Status:settled Cat:utilities Dir:debit Amt:ZAR 1483.81 Flex:fixed Desc:Household utility payment
+  [event_09] Date:2023-11-08 Settled:2023-11-08 Status:settled Cat:education Dir:debit Amt:ZAR 1821.6 Flex:fixed Desc:Professional training fee
+  [event_10] Date:2023-11-11 Settled:2023-11-11 Status:settled Cat:debt_repayment Dir:debit Amt:ZAR 3487.0 Flex:fixed Desc:Education loan instalment
+  [event_11] Date:2023-11-11 Settled:2023-11-11 Status:settled Cat:music_subscription Dir:debit Amt:ZAR 235.4 Flex:fixed Desc:Music service subscription
+  [event_12] Date:2023-11-13 Settled:2023-11-13 Status:settled Cat:delivery_membership Dir:debit Amt:ZAR 306.9 Flex:stoppable Desc:Delivery service plan
+  [event_13] Date:2023-12-02 Settled:2023-12-02 Status:settled Cat:rent Dir:debit Amt:ZAR 5148.0 Flex:fixed Desc:Apartment rent transfer
+  [event_14] Date:2023-12-06 Settled:2023-12-06 Status:settled Cat:utilities Dir:debit Amt:ZAR 1541.75 Flex:fixed Desc:Household utility payment
+  [event_15] Date:2023-12-08 Settled:2023-12-08 Status:settled Cat:education Dir:debit Amt:ZAR 1821.6 Flex:fixed Desc:Professional training fee
+  [event_16] Date:2023-12-11 Settled:2023-12-11 Status:settled Cat:debt_repayment Dir:debit Amt:ZAR 3487.0 Flex:fixed Desc:Education loan instalment
+  [event_17] Date:2023-12-11 Settled:2023-12-11 Status:settled Cat:music_subscription Dir:debit Amt:ZAR 235.4 Flex:fixed Desc:Music service subscription
+  [event_18] Date:2023-12-13 Settled:2023-12-13 Status:settled Cat:delivery_membership Dir:debit Amt:ZAR 306.9 Flex:stoppable Desc:Delivery service plan
+  [event_19] Date:2024-01-02 Settled:2024-01-02 Status:settled Cat:rent Dir:debit Amt:ZAR 5148.0 Flex:fixed Desc:Apartment rent transfer
+  [event_20] Date:2024-01-06 Settled:2024-01-06 Status:settled Cat:utilities Dir:debit Amt:ZAR 1651.81 Flex:fixed Desc:Household utility payment
+  [event_21] Date:2024-01-08 Settled:2024-01-08 Status:settled Cat:education Dir:debit Amt:ZAR 1821.6 Flex:fixed Desc:Professional training fee
+  [event_22] Date:2024-01-11 Settled:2024-01-11 Status:settled Cat:debt_repayment Dir:debit Amt:ZAR 3487.0 Flex:fixed Desc:Education loan instalment
+  [event_23] Date:2024-01-11 Settled:2024-01-11 Status:settled Cat:music_subscription Dir:debit Amt:ZAR 235.4 Flex:fixed Desc:Music service subscription
+  [event_24] Date:2024-01-13 Settled:2024-01-13 Status:settled Cat:delivery_membership Dir:debit Amt:ZAR 306.9 Flex:stoppable Desc:Delivery service plan
+  [event_25] Date:2024-02-15 Settled:2024-02-15 Status:settled Cat:salary Dir:credit Amt:ZAR 12826.0 Flex:fixed Desc:Prorated first salary
+  [event_26] Date:2024-02-02 Settled:2024-02-02 Status:settled Cat:rent Dir:debit Amt:ZAR 5148.0 Flex:fixed Desc:Apartment rent transfer
+  [event_27] Date:2024-02-06 Settled:2024-02-06 Status:settled Cat:utilities Dir:debit Amt:ZAR 1386.17 Flex:fixed Desc:Household utility payment
+  [event_28] Date:2024-02-08 Settled:2024-02-08 Status:settled Cat:education Dir:debit Amt:ZAR 1821.6 Flex:fixed Desc:Professional training fee
+  [event_29] Date:2024-02-11 Settled:2024-02-11 Status:settled Cat:debt_repayment Dir:debit Amt:ZAR 3487.0 Flex:fixed Desc:Education loan instalment
+  [event_30] Date:2024-02-11 Settled:2024-02-11 Status:settled Cat:music_subscription Dir:debit Amt:ZAR 235.4 Flex:fixed Desc:Music service subscription
+  [event_31] Date:2024-02-13 Settled:2024-02-13 Status:settled Cat:delivery_membership Dir:debit Amt:ZAR 306.9 Flex:stoppable Desc:Delivery service plan
+  [event_32] Date:2024-03-02 Settled:2024-03-02 Status:settled Cat:rent Dir:debit Amt:ZAR 5148.0 Flex:fixed Desc:Apartment rent transfer
+  [event_33] Date:2023-09-08 Settled:2023-09-08 Status:settled Cat:groceries Dir:debit Amt:ZAR 925.62 Flex:fixed Desc:Neighbourhood grocer
+  [event_34] Date:2023-09-15 Settled:2023-09-15 Status:settled Cat:groceries Dir:debit Amt:ZAR 939.13 Flex:fixed Desc:Neighbourhood grocer
+  [event_35] Date:2023-09-22 Settled:2023-09-22 Status:settled Cat:groceries Dir:debit Amt:ZAR 707.36 Flex:fixed Desc:Bulk pantry shop
+  [event_36] Date:2023-09-29 Settled:2023-09-29 Status:settled Cat:groceries Dir:debit Amt:ZAR 629.96 Flex:fixed Desc:Grocery delivery
+  [event_37] Date:2023-10-06 Settled:2023-10-06 Status:settled Cat:groceries Dir:debit Amt:ZAR 873.17 Flex:fixed Desc:Local market purchase
+  [event_38] Date:2023-10-13 Settled:2023-10-13 Status:settled Cat:groceries Dir:debit Amt:ZAR 915.12 Flex:fixed Desc:Bulk pantry shop
+  [event_39] Date:2023-10-20 Settled:2023-10-20 Status:settled Cat:groceries Dir:debit Amt:ZAR 644.3 Flex:fixed Desc:Fresh food shop
+  [event_40] Date:2023-10-27 Settled:2023-10-27 Status:settled Cat:groceries Dir:debit Amt:ZAR 663.27 Flex:fixed Desc:Fresh food shop
+  [event_41] Date:2023-11-03 Settled:2023-11-03 Status:settled Cat:groceries Dir:debit Amt:ZAR 1030.1 Flex:fixed Desc:Grocery delivery
+  [event_42] Date:2023-11-10 Settled:2023-11-10 Status:settled Cat:groceries Dir:debit Amt:ZAR 672.37 Flex:fixed Desc:Neighbourhood grocer
+  [event_43] Date:2023-11-17 Settled:2023-11-17 Status:settled Cat:groceries Dir:debit Amt:ZAR 803.55 Flex:fixed Desc:Local market purchase
+  [event_44] Date:2023-11-24 Settled:2023-11-24 Status:settled Cat:groceries Dir:debit Amt:ZAR 644.43 Flex:fixed Desc:Local market purchase
+  [event_45] Date:2023-12-01 Settled:2023-12-01 Status:settled Cat:groceries Dir:debit Amt:ZAR 882.48 Flex:fixed Desc:Household groceries
+  [event_46] Date:2023-12-08 Settled:2023-12-08 Status:settled Cat:groceries Dir:debit Amt:ZAR 602.87 Flex:fixed Desc:Bulk pantry shop
+  [event_47] Date:2023-12-15 Settled:2023-12-15 Status:settled Cat:groceries Dir:debit Amt:ZAR 765.64 Flex:fixed Desc:Local market purchase
+  [event_48] Date:2023-12-22 Settled:2023-12-22 Status:settled Cat:groceries Dir:debit Amt:ZAR 651.12 Flex:fixed Desc:Fresh food shop
+  [event_49] Date:2023-12-29 Settled:2023-12-29 Status:settled Cat:groceries Dir:debit Amt:ZAR 899.04 Flex:fixed Desc:Fresh food shop
+  [event_50] Date:2024-01-05 Settled:2024-01-05 Status:settled Cat:groceries Dir:debit Amt:ZAR 961.46 Flex:fixed Desc:Neighbourhood grocer
+  [event_51] Date:2024-01-12 Settled:2024-01-12 Status:settled Cat:groceries Dir:debit Amt:ZAR 875.35 Flex:fixed Desc:Supermarket basket
+  [event_52] Date:2024-01-19 Settled:2024-01-19 Status:settled Cat:groceries Dir:debit Amt:ZAR 756.39 Flex:fixed Desc:Household groceries
+  [event_53] Date:2024-01-26 Settled:2024-01-26 Status:settled Cat:groceries Dir:debit Amt:ZAR 624.94 Flex:fixed Desc:Supermarket basket
+  [event_54] Date:2024-02-02 Settled:2024-02-02 Status:settled Cat:groceries Dir:debit Amt:ZAR 719.51 Flex:fixed Desc:Household groceries
+  [event_55] Date:2024-02-09 Settled:2024-02-09 Status:settled Cat:groceries Dir:debit Amt:ZAR 755.11 Flex:fixed Desc:Neighbourhood grocer
+  [event_56] Date:2024-02-16 Settled:2024-02-16 Status:settled Cat:groceries Dir:debit Amt:ZAR 881.22 Flex:fixed Desc:Supermarket basket
+  [event_57] Date:2024-02-23 Settled:2024-02-23 Status:settled Cat:groceries Dir:debit Amt:ZAR 626.01 Flex:fixed Desc:Grocery delivery
+  [event_58] Date:2024-03-01 Settled:2024-03-01 Status:settled Cat:groceries Dir:debit Amt:ZAR 964.05 Flex:fixed Desc:Local market purchase
+  [event_59] Date:2023-09-09 Settled:2023-09-09 Status:settled Cat:transport Dir:debit Amt:ZAR 399.02 Flex:fixed Desc:Commuter pass
+  [event_60] Date:2023-09-16 Settled:2023-09-16 Status:settled Cat:transport Dir:debit Amt:ZAR 549.8 Flex:fixed Desc:Ride-hailing trip
+  [event_61] Date:2023-09-23 Settled:2023-09-23 Status:settled Cat:transport Dir:debit Amt:ZAR 468.47 Flex:fixed Desc:Metro and bus fares
+  [event_62] Date:2023-09-30 Settled:2023-09-30 Status:settled Cat:transport Dir:debit Amt:ZAR 428.92 Flex:fixed Desc:Ride-hailing trip
+  [event_63] Date:2023-10-07 Settled:2023-10-07 Status:settled Cat:transport Dir:debit Amt:ZAR 373.05 Flex:fixed Desc:Metro and bus fares
+  [event_64] Date:2023-10-14 Settled:2023-10-14 Status:settled Cat:transport Dir:debit Amt:ZAR 503.02 Flex:fixed Desc:Fuel refill
+  [event_65] Date:2023-10-21 Settled:2023-10-21 Status:settled Cat:transport Dir:debit Amt:ZAR 351.49 Flex:fixed Desc:Local taxi
+  [event_66] Date:2023-10-28 Settled:2023-10-28 Status:settled Cat:transport Dir:debit Amt:ZAR 553.74 Flex:fixed Desc:Metro and bus fares
+  [event_67] Date:2023-11-04 Settled:2023-11-04 Status:settled Cat:transport Dir:debit Amt:ZAR 421.89 Flex:fixed Desc:Rail pass
+  [event_68] Date:2023-11-11 Settled:2023-11-11 Status:settled Cat:transport Dir:debit Amt:ZAR 347.86 Flex:fixed Desc:Metro and bus fares
+  [event_69] Date:2023-11-18 Settled:2023-11-18 Status:settled Cat:transport Dir:debit Amt:ZAR 518.04 Flex:fixed Desc:Commuter pass
+  [event_70] Date:2023-11-25 Settled:2023-11-25 Status:settled Cat:transport Dir:debit Amt:ZAR 444.56 Flex:fixed Desc:Ride-hailing trip
+  [event_71] Date:2023-12-02 Settled:2023-12-02 Status:settled Cat:transport Dir:debit Amt:ZAR 323.58 Flex:fixed Desc:Parking and tolls
+  [event_72] Date:2023-12-09 Settled:2023-12-09 Status:settled Cat:transport Dir:debit Amt:ZAR 478.16 Flex:fixed Desc:Vehicle charging
+  [event_73] Date:2023-12-16 Settled:2023-12-16 Status:settled Cat:transport Dir:debit Amt:ZAR 534.56 Flex:fixed Desc:Vehicle charging
+  [event_74] Date:2023-12-23 Settled:2023-12-23 Status:settled Cat:transport Dir:debit Amt:ZAR 411.07 Flex:fixed Desc:Local taxi
+  [event_75] Date:2023-12-30 Settled:2023-12-30 Status:settled Cat:transport Dir:debit Amt:ZAR 374.6 Flex:fixed Desc:Commuter pass
+  [event_76] Date:2024-01-06 Settled:2024-01-06 Status:settled Cat:transport Dir:debit Amt:ZAR 358.85 Flex:fixed Desc:Ride-hailing trip
+  [event_77] Date:2024-01-13 Settled:2024-01-13 Status:settled Cat:transport Dir:debit Amt:ZAR 434.69 Flex:fixed Desc:Fuel refill
+  [event_78] Date:2024-01-20 Settled:2024-01-20 Status:settled Cat:transport Dir:debit Amt:ZAR 375.73 Flex:fixed Desc:Rail pass
+  [event_79] Date:2024-01-27 Settled:2024-01-27 Status:settled Cat:transport Dir:debit Amt:ZAR 560.21 Flex:fixed Desc:Commuter pass
+  [event_80] Date:2024-02-03 Settled:2024-02-03 Status:settled Cat:transport Dir:debit Amt:ZAR 406.54 Flex:fixed Desc:Metro and bus fares
+  [event_81] Date:2024-02-10 Settled:2024-02-10 Status:settled Cat:transport Dir:debit Amt:ZAR 488.36 Flex:fixed Desc:Parking and tolls
+  [event_82] Date:2024-02-17 Settled:2024-02-17 Status:settled Cat:transport Dir:debit Amt:ZAR 424.56 Flex:fixed Desc:Ride-hailing trip
+  [event_83] Date:2024-02-24 Settled:2024-02-24 Status:settled Cat:transport Dir:debit Amt:ZAR 549.05 Flex:fixed Desc:Commuter pass
+  [event_84] Date:2024-03-02 Settled:2024-03-02 Status:settled Cat:transport Dir:debit Amt:ZAR 339.29 Flex:fixed Desc:Local taxi
+  [event_85] Date:2023-09-10 Settled:2023-09-10 Status:settled Cat:dining Dir:debit Amt:ZAR 1213.78 Flex:reducible Desc:Bakery and snacks
+  [event_86] Date:2023-09-24 Settled:2023-09-24 Status:settled Cat:dining Dir:debit Amt:ZAR 1243.56 Flex:reducible Desc:Bakery and snacks
+  [event_87] Date:2023-10-08 Settled:2023-10-08 Status:settled Cat:dining Dir:debit Amt:ZAR 1128.35 Flex:reducible Desc:Lunch with colleagues
+  [event_88] Date:2023-10-22 Settled:2023-10-22 Status:settled Cat:dining Dir:debit Amt:ZAR 1027.06 Flex:reducible Desc:Takeaway order
+  [event_89] Date:2023-11-05 Settled:2023-11-05 Status:settled Cat:dining Dir:debit Amt:ZAR 1070.17 Flex:reducible Desc:Quick-service meal
+  [event_90] Date:2023-11-19 Settled:2023-11-19 Status:settled Cat:dining Dir:debit Amt:ZAR 956.7 Flex:reducible Desc:Weekend food delivery
+  [event_91] Date:2023-12-03 Settled:2023-12-03 Status:settled Cat:dining Dir:debit Amt:ZAR 1160.42 Flex:reducible Desc:Quick-service meal
+  [event_92] Date:2023-12-17 Settled:2023-12-17 Status:settled Cat:dining Dir:debit Amt:ZAR 972.88 Flex:reducible Desc:Coffee shop
+  [event_93] Date:2023-12-31 Settled:2023-12-31 Status:settled Cat:dining Dir:debit Amt:ZAR 914.64 Flex:reducible Desc:Neighbourhood restaurant
+  [event_94] Date:2024-01-14 Settled:2024-01-14 Status:settled Cat:dining Dir:debit Amt:ZAR 1017.11 Flex:reducible Desc:Coffee shop
+  [event_95] Date:2024-01-28 Settled:2024-01-28 Status:settled Cat:dining Dir:debit Amt:ZAR 1222.49 Flex:reducible Desc:Bakery and snacks
+  [event_96] Date:2024-02-11 Settled:2024-02-11 Status:settled Cat:dining Dir:debit Amt:ZAR 1016.12 Flex:reducible Desc:Bakery and snacks
+  [event_97] Date:2024-02-25 Settled:2024-02-25 Status:settled Cat:dining Dir:debit Amt:ZAR 1216.17 Flex:reducible Desc:Family dinner
+  [event_98] Date:2024-01-25 Settled:2024-01-26 Status:settled Cat:shopping Dir:debit Amt:ZAR 583.0 Flex:fixed Desc:Card charge later reversed
+  [event_99] Date:2024-01-28 Settled:2024-01-29 Status:settled Cat:shopping Dir:credit Amt:ZAR 583.0 Flex:fixed Desc:Settled card charge reversal
+  [event_100] Date:2024-02-14 Settled:2024-02-16 Status:cancelled Cat:shopping Dir:debit Amt:ZAR 816.2 Flex:fixed Desc:Card authorization
+  [event_101] Date:2024-02-16 Settled:2024-02-17 Status:settled Cat:shopping Dir:debit Amt:ZAR 816.2 Flex:fixed Desc:Settled card purchase
+  [event_102] Date:2024-03-02 Settled:2024-03-05 Status:pending Cat:transport Dir:debit Amt:ZAR 567.6 Flex:fixed Desc:Pending fuel authorization
+  [event_103] Date:2024-03-15 Settled:2024-03-15 Status:scheduled Cat:salary Dir:credit Amt:ZAR 23320.0 Flex:fixed Desc:Next confirmed salary
+----------------------------------------------------------------------
+=== USER: user_05 ===
+Profile: Curr=ZAR, StartBal=46475.1, MinBal=13100
+Considered Methods: full_payment|partial_payment|installments
+Reducible: shopping | Stoppable: cloud_storage
+Events:
+  [event_358] Date:2025-06-15 Settled:2025-06-15 Status:settled Cat:salary Dir:credit Amt:ZAR 14740.0 Flex:fixed Desc:Payroll credit
+  [event_359] Date:2025-06-02 Settled:2025-06-02 Status:settled Cat:rent Dir:debit Amt:ZAR 4972.0 Flex:fixed Desc:Apartment rent transfer
+  [event_360] Date:2025-06-06 Settled:2025-06-06 Status:settled Cat:utilities Dir:debit Amt:ZAR 604.15 Flex:fixed Desc:Municipal utilities
+  [event_361] Date:2025-06-11 Settled:2025-06-11 Status:settled Cat:debt_repayment Dir:debit Amt:ZAR 968.0 Flex:fixed Desc:Vehicle loan payment
+  [event_362] Date:2025-06-10 Settled:2025-06-10 Status:settled Cat:healthcare Dir:debit Amt:ZAR 777.27 Flex:fixed Desc:Therapy appointment
+  [event_363] Date:2025-06-13 Settled:2025-06-13 Status:settled Cat:family_support Dir:debit Amt:ZAR 840.4 Flex:fixed Desc:Dependent care payment
+  [event_364] Date:2025-06-12 Settled:2025-06-12 Status:settled Cat:cloud_storage Dir:debit Amt:ZAR 113.3 Flex:stoppable Desc:Cloud storage plan
+  [event_365] Date:2025-06-12 Settled:2025-06-12 Status:settled Cat:shopping Dir:debit Amt:ZAR 379.94 Flex:reducible Desc:Personal shopping
+  [event_366] Date:2025-07-15 Settled:2025-07-15 Status:settled Cat:salary Dir:credit Amt:ZAR 14740.0 Flex:fixed Desc:Payroll credit
+  [event_367] Date:2025-07-02 Settled:2025-07-02 Status:settled Cat:rent Dir:debit Amt:ZAR 4972.0 Flex:fixed Desc:Apartment rent transfer
+  [event_368] Date:2025-07-06 Settled:2025-07-06 Status:settled Cat:utilities Dir:debit Amt:ZAR 658.41 Flex:fixed Desc:Municipal utilities
+  [event_369] Date:2025-07-11 Settled:2025-07-11 Status:settled Cat:debt_repayment Dir:debit Amt:ZAR 968.0 Flex:fixed Desc:Vehicle loan payment
+  [event_370] Date:2025-07-10 Settled:2025-07-10 Status:settled Cat:healthcare Dir:debit Amt:ZAR 641.37 Flex:fixed Desc:Therapy appointment
+  [event_371] Date:2025-07-13 Settled:2025-07-13 Status:settled Cat:family_support Dir:debit Amt:ZAR 840.4 Flex:fixed Desc:Dependent care payment
+  [event_372] Date:2025-07-12 Settled:2025-07-12 Status:settled Cat:cloud_storage Dir:debit Amt:ZAR 113.3 Flex:stoppable Desc:Cloud storage plan
+  [event_373] Date:2025-07-12 Settled:2025-07-12 Status:settled Cat:shopping Dir:debit Amt:ZAR 404.24 Flex:reducible Desc:Personal shopping
+  [event_374] Date:2025-08-15 Settled:2025-08-15 Status:settled Cat:salary Dir:credit Amt:ZAR 14740.0 Flex:fixed Desc:Payroll credit
+  [event_375] Date:2025-08-02 Settled:2025-08-02 Status:settled Cat:rent Dir:debit Amt:ZAR 4972.0 Flex:fixed Desc:Apartment rent transfer
+  [event_376] Date:2025-08-06 Settled:2025-08-06 Status:settled Cat:utilities Dir:debit Amt:ZAR 750.89 Flex:fixed Desc:Municipal utilities
+  [event_377] Date:2025-08-11 Settled:2025-08-11 Status:settled Cat:debt_repayment Dir:debit Amt:ZAR 968.0 Flex:fixed Desc:Vehicle loan payment
+  [event_378] Date:2025-08-10 Settled:2025-08-10 Status:settled Cat:healthcare Dir:debit Amt:ZAR 632.59 Flex:fixed Desc:Therapy appointment
+  [event_379] Date:2025-08-13 Settled:2025-08-13 Status:settled Cat:family_support Dir:debit Amt:ZAR 840.4 Flex:fixed Desc:Dependent care payment
+  [event_380] Date:2025-08-12 Settled:2025-08-12 Status:settled Cat:cloud_storage Dir:debit Amt:ZAR 113.3 Flex:stoppable Desc:Cloud storage plan
+  [event_381] Date:2025-08-12 Settled:2025-08-12 Status:settled Cat:shopping Dir:debit Amt:ZAR 422.67 Flex:reducible Desc:Personal shopping
+  [event_382] Date:2025-09-15 Settled:2025-09-15 Status:settled Cat:salary Dir:credit Amt:ZAR 14740.0 Flex:fixed Desc:Payroll credit
+  [event_383] Date:2025-09-02 Settled:2025-09-02 Status:settled Cat:rent Dir:debit Amt:ZAR 4972.0 Flex:fixed Desc:Apartment rent transfer
+  [event_384] Date:2025-09-06 Settled:2025-09-06 Status:settled Cat:utilities Dir:debit Amt:ZAR 706.37 Flex:fixed Desc:Municipal utilities
+  [event_385] Date:2025-09-11 Settled:2025-09-11 Status:settled Cat:debt_repayment Dir:debit Amt:ZAR 968.0 Flex:fixed Desc:Vehicle loan payment
+  [event_386] Date:2025-09-10 Settled:2025-09-10 Status:settled Cat:healthcare Dir:debit Amt:ZAR 721.44 Flex:fixed Desc:Therapy appointment
+  [event_387] Date:2025-09-13 Settled:2025-09-13 Status:settled Cat:family_support Dir:debit Amt:ZAR 840.4 Flex:fixed Desc:Dependent care payment
+  [event_388] Date:2025-09-12 Settled:2025-09-12 Status:settled Cat:cloud_storage Dir:debit Amt:ZAR 113.3 Flex:stoppable Desc:Cloud storage plan
+  [event_389] Date:2025-09-12 Settled:2025-09-12 Status:settled Cat:shopping Dir:debit Amt:ZAR 420.31 Flex:reducible Desc:Personal shopping
+  [event_390] Date:2025-10-15 Settled:2025-10-15 Status:settled Cat:salary Dir:credit Amt:ZAR 14740.0 Flex:fixed Desc:Final employer payroll
+  [event_391] Date:2025-10-02 Settled:2025-10-02 Status:settled Cat:rent Dir:debit Amt:ZAR 4972.0 Flex:fixed Desc:Apartment rent transfer
+  [event_392] Date:2025-10-06 Settled:2025-10-06 Status:settled Cat:utilities Dir:debit Amt:ZAR 713.71 Flex:fixed Desc:Municipal utilities
+  [event_393] Date:2025-10-11 Settled:2025-10-11 Status:settled Cat:debt_repayment Dir:debit Amt:ZAR 968.0 Flex:fixed Desc:Vehicle loan payment
+  [event_394] Date:2025-10-10 Settled:2025-10-10 Status:settled Cat:healthcare Dir:debit Amt:ZAR 722.37 Flex:fixed Desc:Therapy appointment
+  [event_395] Date:2025-10-13 Settled:2025-10-13 Status:settled Cat:family_support Dir:debit Amt:ZAR 840.4 Flex:fixed Desc:Dependent care payment
+  [event_396] Date:2025-10-12 Settled:2025-10-12 Status:settled Cat:cloud_storage Dir:debit Amt:ZAR 113.3 Flex:stoppable Desc:Cloud storage plan
+  [event_397] Date:2025-10-12 Settled:2025-10-12 Status:settled Cat:shopping Dir:debit Amt:ZAR 362.09 Flex:reducible Desc:Personal shopping
+  [event_398] Date:2025-11-02 Settled:2025-11-02 Status:settled Cat:rent Dir:debit Amt:ZAR 4972.0 Flex:fixed Desc:Apartment rent transfer
+  [event_399] Date:2025-05-13 Settled:2025-05-13 Status:settled Cat:groceries Dir:debit Amt:ZAR 784.81 Flex:fixed Desc:Supermarket basket
+  [event_400] Date:2025-05-20 Settled:2025-05-20 Status:settled Cat:groceries Dir:debit Amt:ZAR 818.16 Flex:fixed Desc:Household groceries
+  [event_401] Date:2025-05-27 Settled:2025-05-27 Status:settled Cat:groceries Dir:debit Amt:ZAR 680.15 Flex:fixed Desc:Local market purchase
+  [event_402] Date:2025-06-03 Settled:2025-06-03 Status:settled Cat:groceries Dir:debit Amt:ZAR 530.44 Flex:fixed Desc:Local market purchase
+  [event_403] Date:2025-06-10 Settled:2025-06-10 Status:settled Cat:groceries Dir:debit Amt:ZAR 695.96 Flex:fixed Desc:Weekly produce market
+  [event_404] Date:2025-06-17 Settled:2025-06-17 Status:settled Cat:groceries Dir:debit Amt:ZAR 835.0 Flex:fixed Desc:Grocery delivery
+  [event_405] Date:2025-06-24 Settled:2025-06-24 Status:settled Cat:groceries Dir:debit Amt:ZAR 635.23 Flex:fixed Desc:Grocery delivery
+  [event_406] Date:2025-07-01 Settled:2025-07-01 Status:settled Cat:groceries Dir:debit Amt:ZAR 661.93 Flex:fixed Desc:Supermarket basket
+  [event_407] Date:2025-07-08 Settled:2025-07-08 Status:settled Cat:groceries Dir:debit Amt:ZAR 567.19 Flex:fixed Desc:Bulk pantry shop
+  [event_408] Date:2025-07-15 Settled:2025-07-15 Status:settled Cat:groceries Dir:debit Amt:ZAR 767.92 Flex:fixed Desc:Neighbourhood grocer
+  [event_409] Date:2025-07-22 Settled:2025-07-22 Status:settled Cat:groceries Dir:debit Amt:ZAR 807.31 Flex:fixed Desc:Fresh food shop
+  [event_410] Date:2025-07-29 Settled:2025-07-29 Status:settled Cat:groceries Dir:debit Amt:ZAR 800.63 Flex:fixed Desc:Household groceries
+  [event_411] Date:2025-08-05 Settled:2025-08-05 Status:settled Cat:groceries Dir:debit Amt:ZAR 813.64 Flex:fixed Desc:Weekly produce market
+  [event_412] Date:2025-08-12 Settled:2025-08-12 Status:settled Cat:groceries Dir:debit Amt:ZAR 853.42 Flex:fixed Desc:Weekly produce market
+  [event_413] Date:2025-08-19 Settled:2025-08-19 Status:settled Cat:groceries Dir:debit Amt:ZAR 773.83 Flex:fixed Desc:Neighbourhood grocer
+  [event_414] Date:2025-08-26 Settled:2025-08-26 Status:settled Cat:groceries Dir:debit Amt:ZAR 845.02 Flex:fixed Desc:Household groceries
+  [event_415] Date:2025-09-02 Settled:2025-09-02 Status:settled Cat:groceries Dir:debit Amt:ZAR 762.65 Flex:fixed Desc:Fresh food shop
+  [event_416] Date:2025-09-09 Settled:2025-09-09 Status:settled Cat:groceries Dir:debit Amt:ZAR 515.4 Flex:fixed Desc:Grocery delivery
+  [event_417] Date:2025-09-16 Settled:2025-09-16 Status:settled Cat:groceries Dir:debit Amt:ZAR 682.39 Flex:fixed Desc:Local market purchase
+  [event_418] Date:2025-09-23 Settled:2025-09-23 Status:settled Cat:groceries Dir:debit Amt:ZAR 675.81 Flex:fixed Desc:Bulk pantry shop
+  [event_419] Date:2025-09-30 Settled:2025-09-30 Status:settled Cat:groceries Dir:debit Amt:ZAR 547.6 Flex:fixed Desc:Local market purchase
+  [event_420] Date:2025-10-07 Settled:2025-10-07 Status:settled Cat:groceries Dir:debit Amt:ZAR 826.66 Flex:fixed Desc:Household groceries
+  [event_421] Date:2025-10-14 Settled:2025-10-14 Status:settled Cat:groceries Dir:debit Amt:ZAR 768.64 Flex:fixed Desc:Grocery delivery
+  [event_422] Date:2025-10-21 Settled:2025-10-21 Status:settled Cat:groceries Dir:debit Amt:ZAR 709.62 Flex:fixed Desc:Neighbourhood grocer
+  [event_423] Date:2025-10-28 Settled:2025-10-28 Status:settled Cat:groceries Dir:debit Amt:ZAR 684.39 Flex:fixed Desc:Supermarket basket
+  [event_424] Date:2025-11-04 Settled:2025-11-04 Status:settled Cat:groceries Dir:debit Amt:ZAR 720.51 Flex:fixed Desc:Fresh food shop
+  [event_425] Date:2025-05-14 Settled:2025-05-14 Status:settled Cat:transport Dir:debit Amt:ZAR 489.31 Flex:fixed Desc:Parking and tolls
+  [event_426] Date:2025-05-28 Settled:2025-05-28 Status:settled Cat:transport Dir:debit Amt:ZAR 424.26 Flex:fixed Desc:Fuel refill
+  [event_427] Date:2025-06-11 Settled:2025-06-11 Status:settled Cat:transport Dir:debit Amt:ZAR 504.23 Flex:fixed Desc:Local taxi
+  [event_428] Date:2025-06-25 Settled:2025-06-25 Status:settled Cat:transport Dir:debit Amt:ZAR 492.86 Flex:fixed Desc:Metro and bus fares
+  [event_429] Date:2025-07-09 Settled:2025-07-09 Status:settled Cat:transport Dir:debit Amt:ZAR 363.28 Flex:fixed Desc:Ride-hailing trip
+  [event_430] Date:2025-07-23 Settled:2025-07-23 Status:settled Cat:transport Dir:debit Amt:ZAR 311.0 Flex:fixed Desc:Metro and bus fares
+  [event_431] Date:2025-08-06 Settled:2025-08-06 Status:settled Cat:transport Dir:debit Amt:ZAR 431.81 Flex:fixed Desc:Fuel refill
+  [event_432] Date:2025-08-20 Settled:2025-08-20 Status:settled Cat:transport Dir:debit Amt:ZAR 354.2 Flex:fixed Desc:Parking and tolls
+  [event_433] Date:2025-09-03 Settled:2025-09-03 Status:settled Cat:transport Dir:debit Amt:ZAR 485.59 Flex:fixed Desc:Ride-hailing trip
+  [event_434] Date:2025-09-17 Settled:2025-09-17 Status:settled Cat:transport Dir:debit Amt:ZAR 411.47 Flex:fixed Desc:Vehicle charging
+  [event_435] Date:2025-10-01 Settled:2025-10-01 Status:settled Cat:transport Dir:debit Amt:ZAR 377.26 Flex:fixed Desc:Ride-hailing trip
+  [event_436] Date:2025-10-15 Settled:2025-10-15 Status:settled Cat:transport Dir:debit Amt:ZAR 352.46 Flex:fixed Desc:Metro and bus fares
+  [event_437] Date:2025-10-29 Settled:2025-10-29 Status:settled Cat:transport Dir:debit Amt:ZAR 388.74 Flex:fixed Desc:Rail pass
+  [event_438] Date:2025-11-04 Settled:2025-11-04 Status:failed Cat:utilities Dir:debit Amt:ZAR 389.4 Flex:fixed Desc:Failed utility debit
+----------------------------------------------------------------------
+=== USER: user_06 ===
+Profile: Curr=EUR, StartBal=1942.4, MinBal=800
+Considered Methods: full_payment|partial_payment
+Reducible: nan | Stoppable: streaming
+Events:
+  [event_439] Date:2025-08-15 Settled:2025-08-15 Status:settled Cat:salary Dir:credit Amt:EUR 1441.0 Flex:fixed Desc:Payroll credit
+  [event_440] Date:2025-08-03 Settled:2025-08-03 Status:settled Cat:rent Dir:debit Amt:EUR 254.1 Flex:fixed Desc:Monthly rent
+  [event_441] Date:2025-08-07 Settled:2025-08-07 Status:settled Cat:utilities Dir:debit Amt:EUR 58.34 Flex:fixed Desc:Water and power payment
+  [event_442] Date:2025-08-08 Settled:2025-08-08 Status:settled Cat:insurance Dir:debit Amt:EUR 26.0 Flex:fixed Desc:Vehicle insurance premium
+  [event_443] Date:2025-08-13 Settled:2025-08-13 Status:settled Cat:cloud_storage Dir:debit Amt:EUR 5.0 Flex:fixed Desc:Shared storage plan
+  [event_444] Date:2025-08-10 Settled:2025-08-10 Status:settled Cat:streaming Dir:debit Amt:EUR 19.0 Flex:stoppable Desc:Family streaming plan
+  [event_445] Date:2025-08-13 Settled:2025-08-13 Status:settled Cat:shopping Dir:debit Amt:EUR 41.44 Flex:fixed Desc:Household shopping
+  [event_446] Date:2025-08-15 Settled:2025-08-15 Status:settled Cat:entertainment Dir:debit Amt:EUR 32.1 Flex:fixed Desc:Monthly entertainment spend
+  [event_447] Date:2025-09-15 Settled:2025-09-15 Status:settled Cat:salary Dir:credit Amt:EUR 1441.0 Flex:fixed Desc:Payroll credit
+  [event_448] Date:2025-09-03 Settled:2025-09-03 Status:settled Cat:rent Dir:debit Amt:EUR 254.1 Flex:fixed Desc:Monthly rent
+  [event_449] Date:2025-09-07 Settled:2025-09-07 Status:settled Cat:utilities Dir:debit Amt:EUR 52.62 Flex:fixed Desc:Water and power payment
+  [event_450] Date:2025-09-08 Settled:2025-09-08 Status:settled Cat:insurance Dir:debit Amt:EUR 26.0 Flex:fixed Desc:Vehicle insurance premium
+  [event_451] Date:2025-09-13 Settled:2025-09-13 Status:settled Cat:cloud_storage Dir:debit Amt:EUR 5.0 Flex:fixed Desc:Shared storage plan
+  [event_452] Date:2025-09-10 Settled:2025-09-10 Status:settled Cat:streaming Dir:debit Amt:EUR 19.0 Flex:stoppable Desc:Family streaming plan
+  [event_453] Date:2025-09-13 Settled:2025-09-13 Status:settled Cat:shopping Dir:debit Amt:EUR 46.25 Flex:fixed Desc:Household shopping
+  [event_454] Date:2025-09-15 Settled:2025-09-15 Status:settled Cat:entertainment Dir:debit Amt:EUR 35.1 Flex:fixed Desc:Monthly entertainment spend
+  [event_455] Date:2025-10-15 Settled:2025-10-15 Status:settled Cat:salary Dir:credit Amt:EUR 1441.0 Flex:fixed Desc:Payroll credit
+  [event_456] Date:2025-10-03 Settled:2025-10-03 Status:settled Cat:rent Dir:debit Amt:EUR 254.1 Flex:fixed Desc:Monthly rent
+  [event_457] Date:2025-10-07 Settled:2025-10-07 Status:settled Cat:utilities Dir:debit Amt:EUR 58.98 Flex:fixed Desc:Water and power payment
+  [event_458] Date:2025-10-08 Settled:2025-10-08 Status:settled Cat:insurance Dir:debit Amt:EUR 26.0 Flex:fixed Desc:Vehicle insurance premium
+  [event_459] Date:2025-10-13 Settled:2025-10-13 Status:settled Cat:cloud_storage Dir:debit Amt:EUR 5.0 Flex:fixed Desc:Shared storage plan
+  [event_460] Date:2025-10-10 Settled:2025-10-10 Status:settled Cat:streaming Dir:debit Amt:EUR 19.0 Flex:stoppable Desc:Family streaming plan
+  [event_461] Date:2025-10-13 Settled:2025-10-13 Status:settled Cat:shopping Dir:debit Amt:EUR 39.46 Flex:fixed Desc:Household shopping
+  [event_462] Date:2025-10-15 Settled:2025-10-15 Status:settled Cat:entertainment Dir:debit Amt:EUR 32.18 Flex:fixed Desc:Monthly entertainment spend
+  [event_463] Date:2025-11-15 Settled:2025-11-15 Status:settled Cat:salary Dir:credit Amt:EUR 1037.52 Flex:fixed Desc:Payroll credit
+  [event_464] Date:2025-11-03 Settled:2025-11-03 Status:settled Cat:rent Dir:debit Amt:EUR 254.1 Flex:fixed Desc:Monthly rent
+  [event_465] Date:2025-11-07 Settled:2025-11-07 Status:settled Cat:utilities Dir:debit Amt:EUR 56.71 Flex:fixed Desc:Water and power payment
+  [event_466] Date:2025-11-08 Settled:2025-11-08 Status:settled Cat:insurance Dir:debit Amt:EUR 26.0 Flex:fixed Desc:Vehicle insurance premium
+  [event_467] Date:2025-11-13 Settled:2025-11-13 Status:settled Cat:cloud_storage Dir:debit Amt:EUR 5.0 Flex:fixed Desc:Shared storage plan
+  [event_468] Date:2025-11-10 Settled:2025-11-10 Status:settled Cat:streaming Dir:debit Amt:EUR 19.0 Flex:stoppable Desc:Family streaming plan
+  [event_469] Date:2025-11-13 Settled:2025-11-13 Status:settled Cat:shopping Dir:debit Amt:EUR 37.96 Flex:fixed Desc:Household shopping
+  [event_470] Date:2025-11-15 Settled:2025-11-15 Status:settled Cat:entertainment Dir:debit Amt:EUR 37.36 Flex:fixed Desc:Monthly entertainment spend
+  [event_471] Date:2025-12-15 Settled:2025-12-15 Status:settled Cat:salary Dir:credit Amt:EUR 1037.52 Flex:fixed Desc:Payroll credit
+  [event_472] Date:2025-12-03 Settled:2025-12-03 Status:settled Cat:rent Dir:debit Amt:EUR 254.1 Flex:fixed Desc:Monthly rent
+  [event_473] Date:2025-12-07 Settled:2025-12-07 Status:settled Cat:utilities Dir:debit Amt:EUR 51.86 Flex:fixed Desc:Water and power payment
+  [event_474] Date:2025-12-08 Settled:2025-12-08 Status:settled Cat:insurance Dir:debit Amt:EUR 26.0 Flex:fixed Desc:Vehicle insurance premium
+  [event_475] Date:2025-12-13 Settled:2025-12-13 Status:settled Cat:cloud_storage Dir:debit Amt:EUR 5.0 Flex:fixed Desc:Shared storage plan
+  [event_476] Date:2025-12-10 Settled:2025-12-10 Status:settled Cat:streaming Dir:debit Amt:EUR 19.0 Flex:stoppable Desc:Family streaming plan
+  [event_477] Date:2025-12-13 Settled:2025-12-13 Status:settled Cat:shopping Dir:debit Amt:EUR 39.88 Flex:fixed Desc:Household shopping
+  [event_478] Date:2025-12-15 Settled:2025-12-15 Status:settled Cat:entertainment Dir:debit Amt:EUR 38.33 Flex:fixed Desc:Monthly entertainment spend
+  [event_479] Date:2025-07-11 Settled:2025-07-11 Status:settled Cat:groceries Dir:debit Amt:EUR 43.16 Flex:fixed Desc:Bulk pantry shop
+  [event_480] Date:2025-07-21 Settled:2025-07-21 Status:settled Cat:groceries Dir:debit Amt:EUR 53.56 Flex:fixed Desc:Neighbourhood grocer
+  [event_481] Date:2025-07-31 Settled:2025-07-31 Status:settled Cat:groceries Dir:debit Amt:EUR 49.49 Flex:fixed Desc:Household groceries
+  [event_482] Date:2025-08-10 Settled:2025-08-10 Status:settled Cat:groceries Dir:debit Amt:EUR 43.57 Flex:fixed Desc:Supermarket basket
+  [event_483] Date:2025-08-20 Settled:2025-08-20 Status:settled Cat:groceries Dir:debit Amt:EUR 31.69 Flex:fixed Desc:Grocery delivery
+  [event_484] Date:2025-08-30 Settled:2025-08-30 Status:settled Cat:groceries Dir:debit Amt:EUR 50.53 Flex:fixed Desc:Local market purchase
+  [event_485] Date:2025-09-09 Settled:2025-09-09 Status:settled Cat:groceries Dir:debit Amt:EUR 51.97 Flex:fixed Desc:Household groceries
+  [event_486] Date:2025-09-19 Settled:2025-09-19 Status:settled Cat:groceries Dir:debit Amt:EUR 48.32 Flex:fixed Desc:Grocery delivery
+  [event_487] Date:2025-09-29 Settled:2025-09-29 Status:settled Cat:groceries Dir:debit Amt:EUR 51.55 Flex:fixed Desc:Fresh food shop
+  [event_488] Date:2025-10-09 Settled:2025-10-09 Status:settled Cat:groceries Dir:debit Amt:EUR 46.22 Flex:fixed Desc:Fresh food shop
+  [event_489] Date:2025-10-19 Settled:2025-10-19 Status:settled Cat:groceries Dir:debit Amt:EUR 32.96 Flex:fixed Desc:Fresh food shop
+  [event_490] Date:2025-10-29 Settled:2025-10-29 Status:settled Cat:groceries Dir:debit Amt:EUR 51.4 Flex:fixed Desc:Local market purchase
+  [event_491] Date:2025-11-08 Settled:2025-11-08 Status:settled Cat:groceries Dir:debit Amt:EUR 34.0 Flex:fixed Desc:Weekly produce market
+  [event_492] Date:2025-11-18 Settled:2025-11-18 Status:settled Cat:groceries Dir:debit Amt:EUR 45.4 Flex:fixed Desc:Neighbourhood grocer
+  [event_493] Date:2025-11-28 Settled:2025-11-28 Status:settled Cat:groceries Dir:debit Amt:EUR 51.23 Flex:fixed Desc:Local market purchase
+  [event_494] Date:2025-12-08 Settled:2025-12-08 Status:settled Cat:groceries Dir:debit Amt:EUR 40.91 Flex:fixed Desc:Neighbourhood grocer
+  [event_495] Date:2025-12-18 Settled:2025-12-18 Status:settled Cat:groceries Dir:debit Amt:EUR 52.76 Flex:fixed Desc:Neighbourhood grocer
+  [event_496] Date:2025-12-28 Settled:2025-12-28 Status:settled Cat:groceries Dir:debit Amt:EUR 32.69 Flex:fixed Desc:Bulk pantry shop
+  [event_497] Date:2025-07-12 Settled:2025-07-12 Status:settled Cat:transport Dir:debit Amt:EUR 23.68 Flex:fixed Desc:Parking and tolls
+  [event_498] Date:2025-07-17 Settled:2025-07-17 Status:settled Cat:transport Dir:debit Amt:EUR 23.83 Flex:fixed Desc:Ride-hailing trip
+  [event_499] Date:2025-07-22 Settled:2025-07-22 Status:settled Cat:transport Dir:debit Amt:EUR 24.21 Flex:fixed Desc:Commuter pass
+  [event_500] Date:2025-07-27 Settled:2025-07-27 Status:settled Cat:transport Dir:debit Amt:EUR 19.73 Flex:fixed Desc:Commuter pass
+  [event_501] Date:2025-08-01 Settled:2025-08-01 Status:settled Cat:transport Dir:debit Amt:EUR 32.17 Flex:fixed Desc:Vehicle charging
+  [event_502] Date:2025-08-06 Settled:2025-08-06 Status:settled Cat:transport Dir:debit Amt:EUR 27.8 Flex:fixed Desc:Rail pass
+  [event_503] Date:2025-08-11 Settled:2025-08-11 Status:settled Cat:transport Dir:debit Amt:EUR 28.03 Flex:fixed Desc:Local taxi
+  [event_504] Date:2025-08-16 Settled:2025-08-16 Status:settled Cat:transport Dir:debit Amt:EUR 26.82 Flex:fixed Desc:Metro and bus fares
+  [event_505] Date:2025-08-21 Settled:2025-08-21 Status:settled Cat:transport Dir:debit Amt:EUR 27.29 Flex:fixed Desc:Commuter pass
+  [event_506] Date:2025-08-26 Settled:2025-08-26 Status:settled Cat:transport Dir:debit Amt:EUR 31.89 Flex:fixed Desc:Parking and tolls
+  [event_507] Date:2025-08-31 Settled:2025-08-31 Status:settled Cat:transport Dir:debit Amt:EUR 27.65 Flex:fixed Desc:Metro and bus fares
+  [event_508] Date:2025-09-05 Settled:2025-09-05 Status:settled Cat:transport Dir:debit Amt:EUR 29.46 Flex:fixed Desc:Rail pass
+  [event_509] Date:2025-09-10 Settled:2025-09-10 Status:settled Cat:transport Dir:debit Amt:EUR 21.32 Flex:fixed Desc:Parking and tolls
+  [event_510] Date:2025-09-15 Settled:2025-09-15 Status:settled Cat:transport Dir:debit Amt:EUR 29.47 Flex:fixed Desc:Local taxi
+  [event_511] Date:2025-09-20 Settled:2025-09-20 Status:settled Cat:transport Dir:debit Amt:EUR 28.08 Flex:fixed Desc:Parking and tolls
+  [event_512] Date:2025-09-25 Settled:2025-09-25 Status:settled Cat:transport Dir:debit Amt:EUR 31.87 Flex:fixed Desc:Fuel refill
+  [event_513] Date:2025-09-30 Settled:2025-09-30 Status:settled Cat:transport Dir:debit Amt:EUR 21.1 Flex:fixed Desc:Parking and tolls
+  [event_514] Date:2025-10-05 Settled:2025-10-05 Status:settled Cat:transport Dir:debit Amt:EUR 28.87 Flex:fixed Desc:Commuter pass
+  [event_515] Date:2025-10-10 Settled:2025-10-10 Status:settled Cat:transport Dir:debit Amt:EUR 28.61 Flex:fixed Desc:Metro and bus fares
+  [event_516] Date:2025-10-15 Settled:2025-10-15 Status:settled Cat:transport Dir:debit Amt:EUR 22.14 Flex:fixed Desc:Vehicle charging
+  [event_517] Date:2025-10-20 Settled:2025-10-20 Status:settled Cat:transport Dir:debit Amt:EUR 28.65 Flex:fixed Desc:Parking and tolls
+  [event_518] Date:2025-10-25 Settled:2025-10-25 Status:settled Cat:transport Dir:debit Amt:EUR 23.31 Flex:fixed Desc:Rail pass
+  [event_519] Date:2025-10-30 Settled:2025-10-30 Status:settled Cat:transport Dir:debit Amt:EUR 29.32 Flex:fixed Desc:Rail pass
+  [event_520] Date:2025-11-04 Settled:2025-11-04 Status:settled Cat:transport Dir:debit Amt:EUR 24.5 Flex:fixed Desc:Ride-hailing trip
+  [event_521] Date:2025-11-09 Settled:2025-11-09 Status:settled Cat:transport Dir:debit Amt:EUR 31.69 Flex:fixed Desc:Metro and bus fares
+  [event_522] Date:2025-11-14 Settled:2025-11-14 Status:settled Cat:transport Dir:debit Amt:EUR 30.82 Flex:fixed Desc:Local taxi
+  [event_523] Date:2025-11-19 Settled:2025-11-19 Status:settled Cat:transport Dir:debit Amt:EUR 27.59 Flex:fixed Desc:Local taxi
+  [event_524] Date:2025-11-24 Settled:2025-11-24 Status:settled Cat:transport Dir:debit Amt:EUR 32.36 Flex:fixed Desc:Parking and tolls
+  [event_525] Date:2025-11-29 Settled:2025-11-29 Status:settled Cat:transport Dir:debit Amt:EUR 27.97 Flex:fixed Desc:Vehicle charging
+  [event_526] Date:2025-12-04 Settled:2025-12-04 Status:settled Cat:transport Dir:debit Amt:EUR 29.57 Flex:fixed Desc:Fuel refill
+  [event_527] Date:2025-12-09 Settled:2025-12-09 Status:settled Cat:transport Dir:debit Amt:EUR 19.18 Flex:fixed Desc:Local taxi
+  [event_528] Date:2025-12-14 Settled:2025-12-14 Status:settled Cat:transport Dir:debit Amt:EUR 25.9 Flex:fixed Desc:Metro and bus fares
+  [event_529] Date:2025-12-19 Settled:2025-12-19 Status:settled Cat:transport Dir:debit Amt:EUR 24.92 Flex:fixed Desc:Ride-hailing trip
+  [event_530] Date:2025-12-24 Settled:2025-12-24 Status:settled Cat:transport Dir:debit Amt:EUR 21.46 Flex:fixed Desc:Rail pass
+  [event_531] Date:2025-12-29 Settled:2025-12-29 Status:settled Cat:transport Dir:debit Amt:EUR 32.9 Flex:fixed Desc:Parking and tolls
+  [event_532] Date:2025-07-13 Settled:2025-07-13 Status:settled Cat:dining Dir:debit Amt:EUR 53.26 Flex:fixed Desc:Lunch with colleagues
+  [event_533] Date:2025-07-20 Settled:2025-07-20 Status:settled Cat:dining Dir:debit Amt:EUR 50.79 Flex:fixed Desc:Takeaway order
+  [event_534] Date:2025-07-27 Settled:2025-07-27 Status:settled Cat:dining Dir:debit Amt:EUR 34.99 Flex:fixed Desc:Takeaway order
+  [event_535] Date:2025-08-03 Settled:2025-08-03 Status:settled Cat:dining Dir:debit Amt:EUR 42.1 Flex:fixed Desc:Weekend food delivery
+  [event_536] Date:2025-08-10 Settled:2025-08-10 Status:settled Cat:dining Dir:debit Amt:EUR 48.98 Flex:fixed Desc:Neighbourhood restaurant
+  [event_537] Date:2025-08-17 Settled:2025-08-17 Status:settled Cat:dining Dir:debit Amt:EUR 46.84 Flex:fixed Desc:Weekend food delivery
+  [event_538] Date:2025-08-24 Settled:2025-08-24 Status:settled Cat:dining Dir:debit Amt:EUR 38.44 Flex:fixed Desc:Neighbourhood restaurant
+  [event_539] Date:2025-08-31 Settled:2025-08-31 Status:settled Cat:dining Dir:debit Amt:EUR 37.25 Flex:fixed Desc:Family dinner
+  [event_540] Date:2025-09-07 Settled:2025-09-07 Status:settled Cat:dining Dir:debit Amt:EUR 40.23 Flex:fixed Desc:Bakery and snacks
+  [event_541] Date:2025-09-14 Settled:2025-09-14 Status:settled Cat:dining Dir:debit Amt:EUR 43.95 Flex:fixed Desc:Neighbourhood restaurant
+  [event_542] Date:2025-09-21 Settled:2025-09-21 Status:settled Cat:dining Dir:debit Amt:EUR 56.6 Flex:fixed Desc:Lunch with colleagues
+  [event_543] Date:2025-09-28 Settled:2025-09-28 Status:settled Cat:dining Dir:debit Amt:EUR 48.14 Flex:fixed Desc:Neighbourhood restaurant
+  [event_544] Date:2025-10-05 Settled:2025-10-05 Status:settled Cat:dining Dir:debit Amt:EUR 37.02 Flex:fixed Desc:Neighbourhood restaurant
+  [event_545] Date:2025-10-12 Settled:2025-10-12 Status:settled Cat:dining Dir:debit Amt:EUR 47.33 Flex:fixed Desc:Lunch with colleagues
+  [event_546] Date:2025-10-19 Settled:2025-10-19 Status:settled Cat:dining Dir:debit Amt:EUR 54.09 Flex:fixed Desc:Lunch with colleagues
+  [event_547] Date:2025-10-26 Settled:2025-10-26 Status:settled Cat:dining Dir:debit Amt:EUR 53.71 Flex:fixed Desc:Weekend food delivery
+  [event_548] Date:2025-11-02 Settled:2025-11-02 Status:settled Cat:dining Dir:debit Amt:EUR 32.9 Flex:fixed Desc:Quick-service meal
+  [event_549] Date:2025-11-09 Settled:2025-11-09 Status:settled Cat:dining Dir:debit Amt:EUR 43.17 Flex:fixed Desc:Bakery and snacks
+  [event_550] Date:2025-11-16 Settled:2025-11-16 Status:settled Cat:dining Dir:debit Amt:EUR 37.42 Flex:fixed Desc:Coffee shop
+  [event_551] Date:2025-11-23 Settled:2025-11-23 Status:settled Cat:dining Dir:debit Amt:EUR 55.16 Flex:fixed Desc:Bakery and snacks
+  [event_552] Date:2025-11-30 Settled:2025-11-30 Status:settled Cat:dining Dir:debit Amt:EUR 57.57 Flex:fixed Desc:Neighbourhood restaurant
+  [event_553] Date:2025-12-07 Settled:2025-12-07 Status:settled Cat:dining Dir:debit Amt:EUR 45.39 Flex:fixed Desc:Family dinner
+  [event_554] Date:2025-12-14 Settled:2025-12-14 Status:settled Cat:dining Dir:debit Amt:EUR 36.0 Flex:fixed Desc:Weekend food delivery
+  [event_555] Date:2025-12-21 Settled:2025-12-21 Status:settled Cat:dining Dir:debit Amt:EUR 57.28 Flex:fixed Desc:Family dinner
+  [event_556] Date:2025-12-28 Settled:2025-12-28 Status:settled Cat:dining Dir:debit Amt:EUR 48.36 Flex:fixed Desc:Weekend food delivery
+  [event_557] Date:2025-12-30 Settled:2025-12-31 Status:cancelled Cat:shopping Dir:debit Amt:EUR 66.0 Flex:fixed Desc:Cancelled card authorization
+----------------------------------------------------------------------
+=== USER: user_11 ===
+Profile: Curr=IDR, StartBal=63531795.0, MinBal=34140600
+Considered Methods: full_payment
+Reducible: dining|entertainment | Stoppable: cloud_storage
+Events:
+  [event_905] Date:2024-12-15 Settled:2024-12-15 Status:settled Cat:salary Dir:credit Amt:IDR 23256000.0 Flex:fixed Desc:Base salary
+  [event_906] Date:2024-12-24 Settled:2024-12-24 Status:settled Cat:salary Dir:credit Amt:IDR 16715584.16 Flex:fixed Desc:Performance commission
+  [event_907] Date:2024-12-05 Settled:2024-12-05 Status:settled Cat:housing Dir:debit Amt:IDR 2954500.0 Flex:fixed Desc:Home association fee
+  [event_908] Date:2024-12-08 Settled:2024-12-08 Status:settled Cat:utilities Dir:debit Amt:IDR 2916312.61 Flex:fixed Desc:Municipal utilities
+  [event_909] Date:2024-12-09 Settled:2024-12-09 Status:settled Cat:insurance Dir:debit Amt:IDR 1881000.0 Flex:fixed Desc:Vehicle insurance premium
+  [event_910] Date:2024-12-10 Settled:2024-12-10 Status:settled Cat:education Dir:debit Amt:IDR 2544100.0 Flex:fixed Desc:Child education fee
+  [event_911] Date:2024-12-12 Settled:2024-12-12 Status:settled Cat:healthcare Dir:debit Amt:IDR 2635764.61 Flex:fixed Desc:Regular medicine purchase
+  [event_912] Date:2024-12-16 Settled:2024-12-16 Status:settled Cat:entertainment Dir:debit Amt:IDR 1404572.9 Flex:reducible Desc:Games and recreation
+  [event_913] Date:2024-12-14 Settled:2024-12-14 Status:settled Cat:cloud_storage Dir:debit Amt:IDR 168150.0 Flex:stoppable Desc:Cloud storage plan
+  [event_914] Date:2025-01-15 Settled:2025-01-15 Status:settled Cat:salary Dir:credit Amt:IDR 23256000.0 Flex:fixed Desc:Base salary
+  [event_915] Date:2025-01-24 Settled:2025-01-24 Status:settled Cat:salary Dir:credit Amt:IDR 8908379.93 Flex:fixed Desc:Performance commission
+  [event_916] Date:2025-01-05 Settled:2025-01-05 Status:settled Cat:housing Dir:debit Amt:IDR 2954500.0 Flex:fixed Desc:Home association fee
+  [event_917] Date:2025-01-08 Settled:2025-01-08 Status:settled Cat:utilities Dir:debit Amt:IDR 2891149.67 Flex:fixed Desc:Municipal utilities
+  [event_918] Date:2025-01-09 Settled:2025-01-09 Status:settled Cat:insurance Dir:debit Amt:IDR 1881000.0 Flex:fixed Desc:Vehicle insurance premium
+  [event_919] Date:2025-01-10 Settled:2025-01-10 Status:settled Cat:education Dir:debit Amt:IDR 2544100.0 Flex:fixed Desc:Child education fee
+  [event_920] Date:2025-01-12 Settled:2025-01-12 Status:settled Cat:healthcare Dir:debit Amt:IDR 3118089.32 Flex:fixed Desc:Regular medicine purchase
+  [event_921] Date:2025-01-16 Settled:2025-01-16 Status:settled Cat:entertainment Dir:debit Amt:IDR 1688239.04 Flex:reducible Desc:Games and recreation
+  [event_922] Date:2025-01-14 Settled:2025-01-14 Status:settled Cat:cloud_storage Dir:debit Amt:IDR 168150.0 Flex:stoppable Desc:Cloud storage plan
+  [event_923] Date:2025-02-15 Settled:2025-02-15 Status:settled Cat:salary Dir:credit Amt:IDR 23256000.0 Flex:fixed Desc:Base salary
+  [event_924] Date:2025-02-24 Settled:2025-02-24 Status:settled Cat:salary Dir:credit Amt:IDR 15989420.0 Flex:fixed Desc:Performance commission
+  [event_925] Date:2025-02-05 Settled:2025-02-05 Status:settled Cat:housing Dir:debit Amt:IDR 2954500.0 Flex:fixed Desc:Home association fee
+  [event_926] Date:2025-02-08 Settled:2025-02-08 Status:settled Cat:utilities Dir:debit Amt:IDR 2508782.45 Flex:fixed Desc:Municipal utilities
+  [event_927] Date:2025-02-09 Settled:2025-02-09 Status:settled Cat:insurance Dir:debit Amt:IDR 1881000.0 Flex:fixed Desc:Vehicle insurance premium
+  [event_928] Date:2025-02-10 Settled:2025-02-10 Status:settled Cat:education Dir:debit Amt:IDR 2544100.0 Flex:fixed Desc:Child education fee
+  [event_929] Date:2025-02-12 Settled:2025-02-12 Status:settled Cat:healthcare Dir:debit Amt:IDR 2973572.96 Flex:fixed Desc:Regular medicine purchase
+  [event_930] Date:2025-02-16 Settled:2025-02-16 Status:settled Cat:entertainment Dir:debit Amt:IDR 1587027.72 Flex:reducible Desc:Games and recreation
+  [event_931] Date:2025-02-14 Settled:2025-02-14 Status:settled Cat:cloud_storage Dir:debit Amt:IDR 168150.0 Flex:stoppable Desc:Cloud storage plan
+  [event_932] Date:2025-03-15 Settled:2025-03-15 Status:settled Cat:salary Dir:credit Amt:IDR 23256000.0 Flex:fixed Desc:Base salary
+  [event_933] Date:2025-03-24 Settled:2025-03-24 Status:settled Cat:salary Dir:credit Amt:IDR 20012106.46 Flex:fixed Desc:Monthly sales commission
+  [event_934] Date:2025-03-05 Settled:2025-03-05 Status:settled Cat:housing Dir:debit Amt:IDR 2954500.0 Flex:fixed Desc:Home association fee
+  [event_935] Date:2025-03-08 Settled:2025-03-08 Status:settled Cat:utilities Dir:debit Amt:IDR 2488665.63 Flex:fixed Desc:Municipal utilities
+  [event_936] Date:2025-03-09 Settled:2025-03-09 Status:settled Cat:insurance Dir:debit Amt:IDR 1881000.0 Flex:fixed Desc:Vehicle insurance premium
+  [event_937] Date:2025-03-10 Settled:2025-03-10 Status:settled Cat:education Dir:debit Amt:IDR 2544100.0 Flex:fixed Desc:Child education fee
+  [event_938] Date:2025-03-12 Settled:2025-03-12 Status:settled Cat:healthcare Dir:debit Amt:IDR 3165638.3 Flex:fixed Desc:Regular medicine purchase
+  [event_939] Date:2025-03-16 Settled:2025-03-16 Status:settled Cat:entertainment Dir:debit Amt:IDR 1649906.5 Flex:reducible Desc:Games and recreation
+  [event_940] Date:2025-03-14 Settled:2025-03-14 Status:settled Cat:cloud_storage Dir:debit Amt:IDR 168150.0 Flex:stoppable Desc:Cloud storage plan
+  [event_941] Date:2025-04-15 Settled:2025-04-15 Status:settled Cat:salary Dir:credit Amt:IDR 23256000.0 Flex:fixed Desc:Base salary
+  [event_942] Date:2025-04-24 Settled:2025-04-24 Status:settled Cat:salary Dir:credit Amt:IDR 8502888.2 Flex:fixed Desc:Monthly sales commission
+  [event_943] Date:2025-04-05 Settled:2025-04-05 Status:settled Cat:housing Dir:debit Amt:IDR 2954500.0 Flex:fixed Desc:Home association fee
+  [event_944] Date:2025-04-08 Settled:2025-04-08 Status:settled Cat:utilities Dir:debit Amt:IDR 2796165.18 Flex:fixed Desc:Municipal utilities
+  [event_945] Date:2025-04-09 Settled:2025-04-09 Status:settled Cat:insurance Dir:debit Amt:IDR 1881000.0 Flex:fixed Desc:Vehicle insurance premium
+  [event_946] Date:2025-04-10 Settled:2025-04-10 Status:settled Cat:education Dir:debit Amt:IDR 2544100.0 Flex:fixed Desc:Child education fee
+  [event_947] Date:2025-04-12 Settled:2025-04-12 Status:settled Cat:healthcare Dir:debit Amt:IDR 2826901.92 Flex:fixed Desc:Regular medicine purchase
+  [event_948] Date:2025-04-16 Settled:2025-04-16 Status:settled Cat:entertainment Dir:debit Amt:IDR 1674887.61 Flex:reducible Desc:Games and recreation
+  [event_949] Date:2025-04-14 Settled:2025-04-14 Status:settled Cat:cloud_storage Dir:debit Amt:IDR 168150.0 Flex:stoppable Desc:Cloud storage plan
+  [event_950] Date:2024-11-09 Settled:2024-11-09 Status:settled Cat:groceries Dir:debit Amt:IDR 1053064.17 Flex:fixed Desc:Neighbourhood grocer
+  [event_951] Date:2024-11-19 Settled:2024-11-19 Status:settled Cat:groceries Dir:debit Amt:IDR 1565130.98 Flex:fixed Desc:Neighbourhood grocer
+  [event_952] Date:2024-11-29 Settled:2024-11-29 Status:settled Cat:groceries Dir:debit Amt:IDR 1714643.08 Flex:fixed Desc:Supermarket basket
+  [event_953] Date:2024-12-09 Settled:2024-12-09 Status:settled Cat:groceries Dir:debit Amt:IDR 1644304.53 Flex:fixed Desc:Supermarket basket
+  [event_954] Date:2024-12-19 Settled:2024-12-19 Status:settled Cat:groceries Dir:debit Amt:IDR 1406401.86 Flex:fixed Desc:Bulk pantry shop
+  [event_955] Date:2024-12-29 Settled:2024-12-29 Status:settled Cat:groceries Dir:debit Amt:IDR 1063530.58 Flex:fixed Desc:Household groceries
+  [event_956] Date:2025-01-08 Settled:2025-01-08 Status:settled Cat:groceries Dir:debit Amt:IDR 1395524.8 Flex:fixed Desc:Weekly produce market
+  [event_957] Date:2025-01-18 Settled:2025-01-18 Status:settled Cat:groceries Dir:debit Amt:IDR 1578114.18 Flex:fixed Desc:Fresh food shop
+  [event_958] Date:2025-01-28 Settled:2025-01-28 Status:settled Cat:groceries Dir:debit Amt:IDR 1763208.29 Flex:fixed Desc:Neighbourhood grocer
+  [event_959] Date:2025-02-07 Settled:2025-02-07 Status:settled Cat:groceries Dir:debit Amt:IDR 1241008.74 Flex:fixed Desc:Grocery delivery
+  [event_960] Date:2025-02-17 Settled:2025-02-17 Status:settled Cat:groceries Dir:debit Amt:IDR 1222447.75 Flex:fixed Desc:Household groceries
+  [event_961] Date:2025-02-27 Settled:2025-02-27 Status:settled Cat:groceries Dir:debit Amt:IDR 1614291.7 Flex:fixed Desc:Fresh food shop
+  [event_962] Date:2025-03-09 Settled:2025-03-09 Status:settled Cat:groceries Dir:debit Amt:IDR 1655671.41 Flex:fixed Desc:Bulk pantry shop
+  [event_963] Date:2025-03-19 Settled:2025-03-19 Status:settled Cat:groceries Dir:debit Amt:IDR 1311350.07 Flex:fixed Desc:Neighbourhood grocer
+  [event_964] Date:2025-03-29 Settled:2025-03-29 Status:settled Cat:groceries Dir:debit Amt:IDR 1292005.65 Flex:fixed Desc:Local market purchase
+  [event_965] Date:2025-04-08 Settled:2025-04-08 Status:settled Cat:groceries Dir:debit Amt:IDR 1590529.64 Flex:fixed Desc:Bulk pantry shop
+  [event_966] Date:2025-04-18 Settled:2025-04-18 Status:settled Cat:groceries Dir:debit Amt:IDR 1131582.3 Flex:fixed Desc:Grocery delivery
+  [event_967] Date:2025-04-28 Settled:2025-04-28 Status:settled Cat:groceries Dir:debit Amt:IDR 1341187.18 Flex:fixed Desc:Fresh food shop
+  [event_968] Date:2024-11-10 Settled:2024-11-10 Status:settled Cat:transport Dir:debit Amt:IDR 1230316.5 Flex:fixed Desc:Rail pass
+  [event_969] Date:2024-11-24 Settled:2024-11-24 Status:settled Cat:transport Dir:debit Amt:IDR 825660.54 Flex:fixed Desc:Ride-hailing trip
+  [event_970] Date:2024-12-08 Settled:2024-12-08 Status:settled Cat:transport Dir:debit Amt:IDR 788053.2 Flex:fixed Desc:Metro and bus fares
+  [event_971] Date:2024-12-22 Settled:2024-12-22 Status:settled Cat:transport Dir:debit Amt:IDR 893623.46 Flex:fixed Desc:Local taxi
+  [event_972] Date:2025-01-05 Settled:2025-01-05 Status:settled Cat:transport Dir:debit Amt:IDR 1212904.33 Flex:fixed Desc:Metro and bus fares
+  [event_973] Date:2025-01-19 Settled:2025-01-19 Status:settled Cat:transport Dir:debit Amt:IDR 1307205.52 Flex:fixed Desc:Local taxi
+  [event_974] Date:2025-02-02 Settled:2025-02-02 Status:settled Cat:transport Dir:debit Amt:IDR 785218.72 Flex:fixed Desc:Local taxi
+  [event_975] Date:2025-02-16 Settled:2025-02-16 Status:settled Cat:transport Dir:debit Amt:IDR 1185524.72 Flex:fixed Desc:Ride-hailing trip
+  [event_976] Date:2025-03-02 Settled:2025-03-02 Status:settled Cat:transport Dir:debit Amt:IDR 1200020.76 Flex:fixed Desc:Rail pass
+  [event_977] Date:2025-03-16 Settled:2025-03-16 Status:settled Cat:transport Dir:debit Amt:IDR 1244032.33 Flex:fixed Desc:Vehicle charging
+  [event_978] Date:2025-03-30 Settled:2025-03-30 Status:settled Cat:transport Dir:debit Amt:IDR 1122838.73 Flex:fixed Desc:Ride-hailing trip
+  [event_979] Date:2025-04-13 Settled:2025-04-13 Status:settled Cat:transport Dir:debit Amt:IDR 1103949.29 Flex:fixed Desc:Local taxi
+  [event_980] Date:2025-04-27 Settled:2025-04-27 Status:settled Cat:transport Dir:debit Amt:IDR 1244835.69 Flex:fixed Desc:Vehicle charging
+  [event_981] Date:2024-11-06 Settled:2024-11-06 Status:settled Cat:dining Dir:debit Amt:IDR 1018758.07 Flex:reducible Desc:Bakery and snacks
+  [event_982] Date:2024-11-27 Settled:2024-11-27 Status:settled Cat:dining Dir:debit Amt:IDR 1485097.86 Flex:reducible Desc:Neighbourhood restaurant
+  [event_983] Date:2024-12-18 Settled:2024-12-18 Status:settled Cat:dining Dir:debit Amt:IDR 1528058.96 Flex:reducible Desc:Weekend food delivery
+  [event_984] Date:2025-01-08 Settled:2025-01-08 Status:settled Cat:dining Dir:debit Amt:IDR 1697463.1 Flex:reducible Desc:Coffee shop
+  [event_985] Date:2025-01-29 Settled:2025-01-29 Status:settled Cat:dining Dir:debit Amt:IDR 1052748.56 Flex:reducible Desc:Neighbourhood restaurant
+  [event_986] Date:2025-02-19 Settled:2025-02-19 Status:settled Cat:dining Dir:debit Amt:IDR 1365643.7 Flex:reducible Desc:Bakery and snacks
+  [event_987] Date:2025-03-12 Settled:2025-03-12 Status:settled Cat:dining Dir:debit Amt:IDR 1335266.7 Flex:reducible Desc:Quick-service meal
+  [event_988] Date:2025-04-02 Settled:2025-04-02 Status:settled Cat:dining Dir:debit Amt:IDR 1503635.49 Flex:reducible Desc:Lunch with colleagues
+  [event_989] Date:2025-04-23 Settled:2025-04-23 Status:settled Cat:dining Dir:debit Amt:IDR 1163530.49 Flex:reducible Desc:Weekend food delivery
+----------------------------------------------------------------------
+=== USER: user_13 ===
+Profile: Curr=EUR, StartBal=2789.52, MinBal=1300
+Considered Methods: full_payment
+Reducible: gym | Stoppable: music_subscription|delivery_membership
+Events:
+  [event_1055] Date:2023-10-15 Settled:2023-10-15 Status:settled Cat:salary Dir:credit Amt:EUR 1343.54 Flex:fixed Desc:Primary household salary
+  [event_1056] Date:2023-10-20 Settled:2023-10-20 Status:settled Cat:salary Dir:credit Amt:EUR 993.88 Flex:fixed Desc:Second household income
+  [event_1057] Date:2023-10-02 Settled:2023-10-02 Status:settled Cat:rent Dir:debit Amt:EUR 622.6 Flex:fixed Desc:Shared housing rent
+  [event_1058] Date:2023-10-06 Settled:2023-10-06 Status:settled Cat:utilities Dir:debit Amt:EUR 162.77 Flex:fixed Desc:Water and power payment
+  [event_1059] Date:2023-10-11 Settled:2023-10-11 Status:settled Cat:music_subscription Dir:debit Amt:EUR 29.0 Flex:stoppable Desc:Music subscription
+  [event_1060] Date:2023-10-13 Settled:2023-10-13 Status:settled Cat:delivery_membership Dir:debit Amt:EUR 21.0 Flex:stoppable Desc:Delivery service plan
+  [event_1061] Date:2023-10-10 Settled:2023-10-10 Status:settled Cat:gym Dir:debit Amt:EUR 61.0 Flex:reducible Desc:Community fitness plan
+  [event_1062] Date:2023-10-14 Settled:2023-10-14 Status:settled Cat:entertainment Dir:debit Amt:EUR 33.83 Flex:fixed Desc:Local event tickets
+  [event_1063] Date:2023-11-15 Settled:2023-11-15 Status:settled Cat:salary Dir:credit Amt:EUR 1343.54 Flex:fixed Desc:Primary household salary
+  [event_1064] Date:2023-11-20 Settled:2023-11-20 Status:settled Cat:salary Dir:credit Amt:EUR 771.17 Flex:fixed Desc:Second household income
+  [event_1065] Date:2023-11-02 Settled:2023-11-02 Status:settled Cat:rent Dir:debit Amt:EUR 622.6 Flex:fixed Desc:Shared housing rent
+  [event_1066] Date:2023-11-06 Settled:2023-11-06 Status:settled Cat:utilities Dir:debit Amt:EUR 143.39 Flex:fixed Desc:Water and power payment
+  [event_1067] Date:2023-11-11 Settled:2023-11-11 Status:settled Cat:music_subscription Dir:debit Amt:EUR 29.0 Flex:stoppable Desc:Music subscription
+  [event_1068] Date:2023-11-13 Settled:2023-11-13 Status:settled Cat:delivery_membership Dir:debit Amt:EUR 21.0 Flex:stoppable Desc:Delivery service plan
+  [event_1069] Date:2023-11-10 Settled:2023-11-10 Status:settled Cat:gym Dir:debit Amt:EUR 61.0 Flex:reducible Desc:Community fitness plan
+  [event_1070] Date:2023-11-14 Settled:2023-11-14 Status:settled Cat:entertainment Dir:debit Amt:EUR 30.88 Flex:fixed Desc:Local event tickets
+  [event_1071] Date:2023-12-15 Settled:2023-12-15 Status:settled Cat:salary Dir:credit Amt:EUR 1343.54 Flex:fixed Desc:Primary household salary
+  [event_1072] Date:2023-12-20 Settled:2023-12-20 Status:settled Cat:salary Dir:credit Amt:EUR 948.46 Flex:fixed Desc:Second household income
+  [event_1073] Date:2023-12-02 Settled:2023-12-02 Status:settled Cat:rent Dir:debit Amt:EUR 622.6 Flex:fixed Desc:Shared housing rent
+  [event_1074] Date:2023-12-06 Settled:2023-12-06 Status:settled Cat:utilities Dir:debit Amt:EUR 146.33 Flex:fixed Desc:Water and power payment
+  [event_1075] Date:2023-12-11 Settled:2023-12-11 Status:settled Cat:music_subscription Dir:debit Amt:EUR 29.0 Flex:stoppable Desc:Music subscription
+  [event_1076] Date:2023-12-13 Settled:2023-12-13 Status:settled Cat:delivery_membership Dir:debit Amt:EUR 21.0 Flex:stoppable Desc:Delivery service plan
+  [event_1077] Date:2023-12-10 Settled:2023-12-10 Status:settled Cat:gym Dir:debit Amt:EUR 61.0 Flex:reducible Desc:Community fitness plan
+  [event_1078] Date:2023-12-14 Settled:2023-12-14 Status:settled Cat:entertainment Dir:debit Amt:EUR 37.9 Flex:fixed Desc:Local event tickets
+  [event_1079] Date:2024-01-15 Settled:2024-01-15 Status:settled Cat:salary Dir:credit Amt:EUR 1343.54 Flex:fixed Desc:Primary household salary
+  [event_1080] Date:2024-01-20 Settled:2024-01-20 Status:settled Cat:salary Dir:credit Amt:EUR 881.45 Flex:fixed Desc:Second household income
+  [event_1081] Date:2024-01-02 Settled:2024-01-02 Status:settled Cat:rent Dir:debit Amt:EUR 622.6 Flex:fixed Desc:Shared housing rent
+  [event_1082] Date:2024-01-06 Settled:2024-01-06 Status:settled Cat:utilities Dir:debit Amt:EUR 143.7 Flex:fixed Desc:Water and power payment
+  [event_1083] Date:2024-01-11 Settled:2024-01-11 Status:settled Cat:music_subscription Dir:debit Amt:EUR 29.0 Flex:stoppable Desc:Music subscription
+  [event_1084] Date:2024-01-13 Settled:2024-01-13 Status:settled Cat:delivery_membership Dir:debit Amt:EUR 21.0 Flex:stoppable Desc:Delivery service plan
+  [event_1085] Date:2024-01-10 Settled:2024-01-10 Status:settled Cat:gym Dir:debit Amt:EUR 61.0 Flex:reducible Desc:Community fitness plan
+  [event_1086] Date:2024-01-14 Settled:2024-01-14 Status:settled Cat:entertainment Dir:debit Amt:EUR 31.8 Flex:fixed Desc:Local event tickets
+  [event_1087] Date:2024-02-15 Settled:2024-02-15 Status:settled Cat:salary Dir:credit Amt:EUR 1343.54 Flex:fixed Desc:Primary household salary
+  [event_1088] Date:2024-02-02 Settled:2024-02-02 Status:settled Cat:rent Dir:debit Amt:EUR 622.6 Flex:fixed Desc:Shared housing rent
+  [event_1089] Date:2024-02-06 Settled:2024-02-06 Status:settled Cat:utilities Dir:debit Amt:EUR 131.53 Flex:fixed Desc:Water and power payment
+  [event_1090] Date:2024-02-11 Settled:2024-02-11 Status:settled Cat:music_subscription Dir:debit Amt:EUR 29.0 Flex:stoppable Desc:Music subscription
+  [event_1091] Date:2024-02-13 Settled:2024-02-13 Status:settled Cat:delivery_membership Dir:debit Amt:EUR 21.0 Flex:stoppable Desc:Delivery service plan
+  [event_1092] Date:2024-02-10 Settled:2024-02-10 Status:settled Cat:gym Dir:debit Amt:EUR 61.0 Flex:reducible Desc:Community fitness plan
+  [event_1093] Date:2024-02-14 Settled:2024-02-14 Status:settled Cat:entertainment Dir:debit Amt:EUR 30.39 Flex:fixed Desc:Local event tickets
+  [event_1094] Date:2024-03-02 Settled:2024-03-02 Status:settled Cat:rent Dir:debit Amt:EUR 622.6 Flex:fixed Desc:Shared housing rent
+  [event_1095] Date:2024-03-06 Settled:2024-03-06 Status:settled Cat:utilities Dir:debit Amt:EUR 134.25 Flex:fixed Desc:Water and power payment
+  [event_1096] Date:2023-09-12 Settled:2023-09-12 Status:settled Cat:groceries Dir:debit Amt:EUR 91.05 Flex:fixed Desc:Neighbourhood grocer
+  [event_1097] Date:2023-09-19 Settled:2023-09-19 Status:settled Cat:groceries Dir:debit Amt:EUR 114.9 Flex:fixed Desc:Fresh food shop
+  [event_1098] Date:2023-09-26 Settled:2023-09-26 Status:settled Cat:groceries Dir:debit Amt:EUR 120.16 Flex:fixed Desc:Weekly produce market
+  [event_1099] Date:2023-10-03 Settled:2023-10-03 Status:settled Cat:groceries Dir:debit Amt:EUR 82.38 Flex:fixed Desc:Fresh food shop
+  [event_1100] Date:2023-10-10 Settled:2023-10-10 Status:settled Cat:groceries Dir:debit Amt:EUR 115.37 Flex:fixed Desc:Local market purchase
+  [event_1101] Date:2023-10-17 Settled:2023-10-17 Status:settled Cat:groceries Dir:debit Amt:EUR 89.89 Flex:fixed Desc:Weekly produce market
+  [event_1102] Date:2023-10-24 Settled:2023-10-24 Status:settled Cat:groceries Dir:debit Amt:EUR 91.28 Flex:fixed Desc:Grocery delivery
+  [event_1103] Date:2023-10-31 Settled:2023-10-31 Status:settled Cat:groceries Dir:debit Amt:EUR 108.75 Flex:fixed Desc:Weekly produce market
+  [event_1104] Date:2023-11-07 Settled:2023-11-07 Status:settled Cat:groceries Dir:debit Amt:EUR 101.74 Flex:fixed Desc:Grocery delivery
+  [event_1105] Date:2023-11-14 Settled:2023-11-14 Status:settled Cat:groceries Dir:debit Amt:EUR 102.05 Flex:fixed Desc:Local market purchase
+  [event_1106] Date:2023-11-21 Settled:2023-11-21 Status:settled Cat:groceries Dir:debit Amt:EUR 119.05 Flex:fixed Desc:Neighbourhood grocer
+  [event_1107] Date:2023-11-28 Settled:2023-11-28 Status:settled Cat:groceries Dir:debit Amt:EUR 101.87 Flex:fixed Desc:Supermarket basket
+  [event_1108] Date:2023-12-05 Settled:2023-12-05 Status:settled Cat:groceries Dir:debit Amt:EUR 106.05 Flex:fixed Desc:Neighbourhood grocer
+  [event_1109] Date:2023-12-12 Settled:2023-12-12 Status:settled Cat:groceries Dir:debit Amt:EUR 102.25 Flex:fixed Desc:Local market purchase
+  [event_1110] Date:2023-12-19 Settled:2023-12-19 Status:settled Cat:groceries Dir:debit Amt:EUR 93.15 Flex:fixed Desc:Local market purchase
+  [event_1111] Date:2023-12-26 Settled:2023-12-26 Status:settled Cat:groceries Dir:debit Amt:EUR 81.24 Flex:fixed Desc:Weekly produce market
+  [event_1112] Date:2024-01-02 Settled:2024-01-02 Status:settled Cat:groceries Dir:debit Amt:EUR 86.23 Flex:fixed Desc:Supermarket basket
+  [event_1113] Date:2024-01-09 Settled:2024-01-09 Status:settled Cat:groceries Dir:debit Amt:EUR 94.28 Flex:fixed Desc:Supermarket basket
+  [event_1114] Date:2024-01-16 Settled:2024-01-16 Status:settled Cat:groceries Dir:debit Amt:EUR 84.23 Flex:fixed Desc:Local market purchase
+  [event_1115] Date:2024-01-23 Settled:2024-01-23 Status:settled Cat:groceries Dir:debit Amt:EUR 120.89 Flex:fixed Desc:Bulk pantry shop
+  [event_1116] Date:2024-01-30 Settled:2024-01-30 Status:settled Cat:groceries Dir:debit Amt:EUR 114.53 Flex:fixed Desc:Grocery delivery
+  [event_1117] Date:2024-02-06 Settled:2024-02-06 Status:settled Cat:groceries Dir:debit Amt:EUR 73.74 Flex:fixed Desc:Bulk pantry shop
+  [event_1118] Date:2024-02-13 Settled:2024-02-13 Status:settled Cat:groceries Dir:debit Amt:EUR 98.36 Flex:fixed Desc:Weekly produce market
+  [event_1119] Date:2024-02-20 Settled:2024-02-20 Status:settled Cat:groceries Dir:debit Amt:EUR 118.36 Flex:fixed Desc:Grocery delivery
+  [event_1120] Date:2024-02-27 Settled:2024-02-27 Status:settled Cat:groceries Dir:debit Amt:EUR 85.71 Flex:fixed Desc:Grocery delivery
+  [event_1121] Date:2024-03-05 Settled:2024-03-05 Status:settled Cat:groceries Dir:debit Amt:EUR 93.66 Flex:fixed Desc:Bulk pantry shop
+  [event_1122] Date:2023-09-13 Settled:2023-09-13 Status:settled Cat:transport Dir:debit Amt:EUR 44.85 Flex:fixed Desc:Commuter pass
+  [event_1123] Date:2023-09-20 Settled:2023-09-20 Status:settled Cat:transport Dir:debit Amt:EUR 35.12 Flex:fixed Desc:Metro and bus fares
+  [event_1124] Date:2023-09-27 Settled:2023-09-27 Status:settled Cat:transport Dir:debit Amt:EUR 34.47 Flex:fixed Desc:Metro and bus fares
+  [event_1125] Date:2023-10-04 Settled:2023-10-04 Status:settled Cat:transport Dir:debit Amt:EUR 34.28 Flex:fixed Desc:Local taxi
+  [event_1126] Date:2023-10-11 Settled:2023-10-11 Status:settled Cat:transport Dir:debit Amt:EUR 50.6 Flex:fixed Desc:Rail pass
+  [event_1127] Date:2023-10-18 Settled:2023-10-18 Status:settled Cat:transport Dir:debit Amt:EUR 55.33 Flex:fixed Desc:Parking and tolls
+  [event_1128] Date:2023-10-25 Settled:2023-10-25 Status:settled Cat:transport Dir:debit Amt:EUR 34.09 Flex:fixed Desc:Vehicle charging
+  [event_1129] Date:2023-11-01 Settled:2023-11-01 Status:settled Cat:transport Dir:debit Amt:EUR 54.58 Flex:fixed Desc:Local taxi
+  [event_1130] Date:2023-11-08 Settled:2023-11-08 Status:settled Cat:transport Dir:debit Amt:EUR 33.97 Flex:fixed Desc:Local taxi
+  [event_1131] Date:2023-11-15 Settled:2023-11-15 Status:settled Cat:transport Dir:debit Amt:EUR 48.13 Flex:fixed Desc:Commuter pass
+  [event_1132] Date:2023-11-22 Settled:2023-11-22 Status:settled Cat:transport Dir:debit Amt:EUR 54.4 Flex:fixed Desc:Commuter pass
+  [event_1133] Date:2023-11-29 Settled:2023-11-29 Status:settled Cat:transport Dir:debit Amt:EUR 38.31 Flex:fixed Desc:Commuter pass
+  [event_1134] Date:2023-12-06 Settled:2023-12-06 Status:settled Cat:transport Dir:debit Amt:EUR 44.07 Flex:fixed Desc:Fuel refill
+  [event_1135] Date:2023-12-13 Settled:2023-12-13 Status:settled Cat:transport Dir:debit Amt:EUR 50.38 Flex:fixed Desc:Fuel refill
+  [event_1136] Date:2023-12-20 Settled:2023-12-20 Status:settled Cat:transport Dir:debit Amt:EUR 49.29 Flex:fixed Desc:Ride-hailing trip
+  [event_1137] Date:2023-12-27 Settled:2023-12-27 Status:settled Cat:transport Dir:debit Amt:EUR 46.73 Flex:fixed Desc:Metro and bus fares
+  [event_1138] Date:2024-01-03 Settled:2024-01-03 Status:settled Cat:transport Dir:debit Amt:EUR 43.41 Flex:fixed Desc:Commuter pass
+  [event_1139] Date:2024-01-10 Settled:2024-01-10 Status:settled Cat:transport Dir:debit Amt:EUR 58.44 Flex:fixed Desc:Parking and tolls
+  [event_1140] Date:2024-01-17 Settled:2024-01-17 Status:settled Cat:transport Dir:debit Amt:EUR 33.5 Flex:fixed Desc:Ride-hailing trip
+  [event_1141] Date:2024-01-24 Settled:2024-01-24 Status:settled Cat:transport Dir:debit Amt:EUR 56.63 Flex:fixed Desc:Rail pass
+  [event_1142] Date:2024-01-31 Settled:2024-01-31 Status:settled Cat:transport Dir:debit Amt:EUR 46.98 Flex:fixed Desc:Local taxi
+  [event_1143] Date:2024-02-07 Settled:2024-02-07 Status:settled Cat:transport Dir:debit Amt:EUR 45.29 Flex:fixed Desc:Rail pass
+  [event_1144] Date:2024-02-14 Settled:2024-02-14 Status:settled Cat:transport Dir:debit Amt:EUR 45.37 Flex:fixed Desc:Fuel refill
+  [event_1145] Date:2024-02-21 Settled:2024-02-21 Status:settled Cat:transport Dir:debit Amt:EUR 39.48 Flex:fixed Desc:Metro and bus fares
+  [event_1146] Date:2024-02-28 Settled:2024-02-28 Status:settled Cat:transport Dir:debit Amt:EUR 50.46 Flex:fixed Desc:Ride-hailing trip
+  [event_1147] Date:2024-03-06 Settled:2024-03-06 Status:settled Cat:transport Dir:debit Amt:EUR 37.29 Flex:fixed Desc:Vehicle charging
+  [event_1148] Date:2023-09-14 Settled:2023-09-14 Status:settled Cat:dining Dir:debit Amt:EUR 75.47 Flex:fixed Desc:Quick-service meal
+  [event_1149] Date:2023-09-28 Settled:2023-09-28 Status:settled Cat:dining Dir:debit Amt:EUR 68.7 Flex:fixed Desc:Takeaway order
+  [event_1150] Date:2023-10-12 Settled:2023-10-12 Status:settled Cat:dining Dir:debit Amt:EUR 80.09 Flex:fixed Desc:Coffee shop
+  [event_1151] Date:2023-10-26 Settled:2023-10-26 Status:settled Cat:dining Dir:debit Amt:EUR 62.71 Flex:fixed Desc:Lunch with colleagues
+  [event_1152] Date:2023-11-09 Settled:2023-11-09 Status:settled Cat:dining Dir:debit Amt:EUR 53.91 Flex:fixed Desc:Takeaway order
+  [event_1153] Date:2023-11-23 Settled:2023-11-23 Status:settled Cat:dining Dir:debit Amt:EUR 80.35 Flex:fixed Desc:Quick-service meal
+  [event_1154] Date:2023-12-07 Settled:2023-12-07 Status:settled Cat:dining Dir:debit Amt:EUR 64.45 Flex:fixed Desc:Weekend food delivery
+  [event_1155] Date:2023-12-21 Settled:2023-12-21 Status:settled Cat:dining Dir:debit Amt:EUR 70.45 Flex:fixed Desc:Neighbourhood restaurant
+  [event_1156] Date:2024-01-04 Settled:2024-01-04 Status:settled Cat:dining Dir:debit Amt:EUR 61.59 Flex:fixed Desc:Bakery and snacks
+  [event_1157] Date:2024-01-18 Settled:2024-01-18 Status:settled Cat:dining Dir:debit Amt:EUR 48.2 Flex:fixed Desc:Family dinner
+  [event_1158] Date:2024-02-01 Settled:2024-02-01 Status:settled Cat:dining Dir:debit Amt:EUR 60.34 Flex:fixed Desc:Family dinner
+  [event_1159] Date:2024-02-15 Settled:2024-02-15 Status:settled Cat:dining Dir:debit Amt:EUR 48.02 Flex:fixed Desc:Weekend food delivery
+  [event_1160] Date:2024-02-29 Settled:2024-02-29 Status:settled Cat:dining Dir:debit Amt:EUR 61.28 Flex:fixed Desc:Weekend food delivery
+  [event_1161] Date:2024-03-15 Settled:2024-03-15 Status:scheduled Cat:salary Dir:credit Amt:EUR 1343.54 Flex:fixed Desc:Next confirmed salary
+----------------------------------------------------------------------
+=== USER: user_18 ===
+Profile: Curr=EUR, StartBal=2486.0, MinBal=1400
+Considered Methods: full_payment|partial_payment
+Reducible: dining|streaming | Stoppable: streaming
+Events:
+  [event_1547] Date:2026-02-15 Settled:2026-02-15 Status:settled Cat:salary Dir:credit Amt:EUR 2310.0 Flex:fixed Desc:Payroll credit
+  [event_1548] Date:2026-02-04 Settled:2026-02-04 Status:settled Cat:housing Dir:debit Amt:EUR 167.0 Flex:fixed Desc:Building maintenance payment
+  [event_1549] Date:2026-02-07 Settled:2026-02-07 Status:settled Cat:utilities Dir:debit Amt:EUR 100.59 Flex:fixed Desc:Energy provider bill
+  [event_1550] Date:2026-02-08 Settled:2026-02-08 Status:settled Cat:insurance Dir:debit Amt:EUR 68.0 Flex:fixed Desc:Household insurance
+  [event_1551] Date:2026-02-11 Settled:2026-02-11 Status:settled Cat:healthcare Dir:debit Amt:EUR 164.1 Flex:fixed Desc:Clinic payment
+  [event_1552] Date:2026-02-10 Settled:2026-02-10 Status:settled Cat:streaming Dir:debit Amt:EUR 68.0 Flex:reducible_or_stoppable Desc:Family streaming plan
+  [event_1553] Date:2026-03-15 Settled:2026-03-15 Status:settled Cat:salary Dir:credit Amt:EUR 2310.0 Flex:fixed Desc:Payroll credit
+  [event_1554] Date:2026-03-04 Settled:2026-03-04 Status:settled Cat:housing Dir:debit Amt:EUR 167.0 Flex:fixed Desc:Building maintenance payment
+  [event_1555] Date:2026-03-07 Settled:2026-03-07 Status:settled Cat:utilities Dir:debit Amt:EUR 101.24 Flex:fixed Desc:Energy provider bill
+  [event_1556] Date:2026-03-08 Settled:2026-03-08 Status:settled Cat:insurance Dir:debit Amt:EUR 68.0 Flex:fixed Desc:Household insurance
+  [event_1557] Date:2026-03-11 Settled:2026-03-11 Status:settled Cat:healthcare Dir:debit Amt:EUR 150.18 Flex:fixed Desc:Clinic payment
+  [event_1558] Date:2026-03-10 Settled:2026-03-10 Status:settled Cat:streaming Dir:debit Amt:EUR 68.0 Flex:reducible_or_stoppable Desc:Family streaming plan
+  [event_1559] Date:2026-04-15 Settled:2026-04-15 Status:settled Cat:salary Dir:credit Amt:EUR 2310.0 Flex:fixed Desc:Payroll credit
+  [event_1560] Date:2026-04-04 Settled:2026-04-04 Status:settled Cat:housing Dir:debit Amt:EUR 167.0 Flex:fixed Desc:Building maintenance payment
+  [event_1561] Date:2026-04-07 Settled:2026-04-07 Status:settled Cat:utilities Dir:debit Amt:EUR 125.4 Flex:fixed Desc:Energy provider bill
+  [event_1562] Date:2026-04-08 Settled:2026-04-08 Status:settled Cat:insurance Dir:debit Amt:EUR 68.0 Flex:fixed Desc:Household insurance
+  [event_1563] Date:2026-04-11 Settled:2026-04-11 Status:settled Cat:healthcare Dir:debit Amt:EUR 152.41 Flex:fixed Desc:Clinic payment
+  [event_1564] Date:2026-04-10 Settled:2026-04-10 Status:settled Cat:streaming Dir:debit Amt:EUR 68.0 Flex:reducible_or_stoppable Desc:Family streaming plan
+  [event_1565] Date:2026-05-15 Settled:2026-05-15 Status:settled Cat:salary Dir:credit Amt:EUR 2310.0 Flex:fixed Desc:Payroll credit
+  [event_1566] Date:2026-05-04 Settled:2026-05-04 Status:settled Cat:housing Dir:debit Amt:EUR 167.0 Flex:fixed Desc:Building maintenance payment
+  [event_1567] Date:2026-05-07 Settled:2026-05-07 Status:settled Cat:utilities Dir:debit Amt:EUR 121.67 Flex:fixed Desc:Energy provider bill
+  [event_1568] Date:2026-05-08 Settled:2026-05-08 Status:settled Cat:insurance Dir:debit Amt:EUR 68.0 Flex:fixed Desc:Household insurance
+  [event_1569] Date:2026-05-11 Settled:2026-05-11 Status:settled Cat:healthcare Dir:debit Amt:EUR 162.41 Flex:fixed Desc:Clinic payment
+  [event_1570] Date:2026-05-10 Settled:2026-05-10 Status:settled Cat:streaming Dir:debit Amt:EUR 68.0 Flex:reducible_or_stoppable Desc:Family streaming plan
+  [event_1571] Date:2026-06-15 Settled:2026-06-15 Status:settled Cat:salary Dir:credit Amt:EUR 2310.0 Flex:fixed Desc:Payroll credit
+  [event_1572] Date:2026-06-04 Settled:2026-06-04 Status:settled Cat:housing Dir:debit Amt:EUR 167.0 Flex:fixed Desc:Building maintenance payment
+  [event_1573] Date:2026-06-07 Settled:2026-06-07 Status:settled Cat:utilities Dir:debit Amt:EUR 107.43 Flex:fixed Desc:Energy provider bill
+  [event_1574] Date:2026-06-08 Settled:2026-06-08 Status:settled Cat:insurance Dir:debit Amt:EUR 68.0 Flex:fixed Desc:Household insurance
+  [event_1575] Date:2026-06-11 Settled:2026-06-11 Status:settled Cat:healthcare Dir:debit Amt:EUR 147.96 Flex:fixed Desc:Clinic payment
+  [event_1576] Date:2026-06-10 Settled:2026-06-10 Status:settled Cat:streaming Dir:debit Amt:EUR 68.0 Flex:reducible_or_stoppable Desc:Family streaming plan
+  [event_1577] Date:2026-07-04 Settled:2026-07-04 Status:settled Cat:housing Dir:debit Amt:EUR 167.0 Flex:fixed Desc:Building maintenance payment
+  [event_1578] Date:2026-01-12 Settled:2026-01-12 Status:settled Cat:groceries Dir:debit Amt:EUR 64.84 Flex:fixed Desc:Bulk pantry shop
+  [event_1579] Date:2026-01-22 Settled:2026-01-22 Status:settled Cat:groceries Dir:debit Amt:EUR 101.66 Flex:fixed Desc:Grocery delivery
+  [event_1580] Date:2026-02-01 Settled:2026-02-01 Status:settled Cat:groceries Dir:debit Amt:EUR 96.63 Flex:fixed Desc:Local market purchase
+  [event_1581] Date:2026-02-11 Settled:2026-02-11 Status:settled Cat:groceries Dir:debit Amt:EUR 101.08 Flex:fixed Desc:Supermarket basket
+  [event_1582] Date:2026-02-21 Settled:2026-02-21 Status:settled Cat:groceries Dir:debit Amt:EUR 87.39 Flex:fixed Desc:Fresh food shop
+  [event_1583] Date:2026-03-03 Settled:2026-03-03 Status:settled Cat:groceries Dir:debit Amt:EUR 106.43 Flex:fixed Desc:Grocery delivery
+  [event_1584] Date:2026-03-13 Settled:2026-03-13 Status:settled Cat:groceries Dir:debit Amt:EUR 66.3 Flex:fixed Desc:Supermarket basket
+  [event_1585] Date:2026-03-23 Settled:2026-03-23 Status:settled Cat:groceries Dir:debit Amt:EUR 108.09 Flex:fixed Desc:Local market purchase
+  [event_1586] Date:2026-04-02 Settled:2026-04-02 Status:settled Cat:groceries Dir:debit Amt:EUR 110.8 Flex:fixed Desc:Weekly produce market
+  [event_1587] Date:2026-04-12 Settled:2026-04-12 Status:settled Cat:groceries Dir:debit Amt:EUR 82.18 Flex:fixed Desc:Local market purchase
+  [event_1588] Date:2026-04-22 Settled:2026-04-22 Status:settled Cat:groceries Dir:debit Amt:EUR 94.02 Flex:fixed Desc:Supermarket basket
+  [event_1589] Date:2026-05-02 Settled:2026-05-02 Status:settled Cat:groceries Dir:debit Amt:EUR 115.0 Flex:fixed Desc:Household groceries
+  [event_1590] Date:2026-05-12 Settled:2026-05-12 Status:settled Cat:groceries Dir:debit Amt:EUR 83.94 Flex:fixed Desc:Bulk pantry shop
+  [event_1591] Date:2026-05-22 Settled:2026-05-22 Status:settled Cat:groceries Dir:debit Amt:EUR 87.91 Flex:fixed Desc:Weekly produce market
+  [event_1592] Date:2026-06-01 Settled:2026-06-01 Status:settled Cat:groceries Dir:debit Amt:EUR 71.92 Flex:fixed Desc:Bulk pantry shop
+  [event_1593] Date:2026-06-11 Settled:2026-06-11 Status:settled Cat:groceries Dir:debit Amt:EUR 101.9 Flex:fixed Desc:Supermarket basket
+  [event_1594] Date:2026-06-21 Settled:2026-06-21 Status:settled Cat:groceries Dir:debit Amt:EUR 90.08 Flex:fixed Desc:Household groceries
+  [event_1595] Date:2026-07-01 Settled:2026-07-01 Status:settled Cat:groceries Dir:debit Amt:EUR 111.41 Flex:fixed Desc:Supermarket basket
+  [event_1596] Date:2026-01-13 Settled:2026-01-13 Status:settled Cat:transport Dir:debit Amt:EUR 36.86 Flex:fixed Desc:Metro and bus fares
+  [event_1597] Date:2026-01-27 Settled:2026-01-27 Status:settled Cat:transport Dir:debit Amt:EUR 35.48 Flex:fixed Desc:Local taxi
+  [event_1598] Date:2026-02-10 Settled:2026-02-10 Status:settled Cat:transport Dir:debit Amt:EUR 54.53 Flex:fixed Desc:Vehicle charging
+  [event_1599] Date:2026-02-24 Settled:2026-02-24 Status:settled Cat:transport Dir:debit Amt:EUR 53.15 Flex:fixed Desc:Fuel refill
+  [event_1600] Date:2026-03-10 Settled:2026-03-10 Status:settled Cat:transport Dir:debit Amt:EUR 38.59 Flex:fixed Desc:Commuter pass
+  [event_1601] Date:2026-03-24 Settled:2026-03-24 Status:settled Cat:transport Dir:debit Amt:EUR 52.9 Flex:fixed Desc:Vehicle charging
+  [event_1602] Date:2026-04-07 Settled:2026-04-07 Status:settled Cat:transport Dir:debit Amt:EUR 36.49 Flex:fixed Desc:Parking and tolls
+  [event_1603] Date:2026-04-21 Settled:2026-04-21 Status:settled Cat:transport Dir:debit Amt:EUR 47.5 Flex:fixed Desc:Vehicle charging
+  [event_1604] Date:2026-05-05 Settled:2026-05-05 Status:settled Cat:transport Dir:debit Amt:EUR 50.57 Flex:fixed Desc:Vehicle charging
+  [event_1605] Date:2026-05-19 Settled:2026-05-19 Status:settled Cat:transport Dir:debit Amt:EUR 34.87 Flex:fixed Desc:Rail pass
+  [event_1606] Date:2026-06-02 Settled:2026-06-02 Status:settled Cat:transport Dir:debit Amt:EUR 36.29 Flex:fixed Desc:Vehicle charging
+  [event_1607] Date:2026-06-16 Settled:2026-06-16 Status:settled Cat:transport Dir:debit Amt:EUR 49.04 Flex:fixed Desc:Ride-hailing trip
+  [event_1608] Date:2026-06-30 Settled:2026-06-30 Status:settled Cat:transport Dir:debit Amt:EUR 43.81 Flex:fixed Desc:Metro and bus fares
+  [event_1609] Date:2026-01-14 Settled:2026-01-14 Status:settled Cat:dining Dir:debit Amt:EUR 66.7 Flex:reducible Desc:Quick-service meal
+  [event_1610] Date:2026-01-28 Settled:2026-01-28 Status:settled Cat:dining Dir:debit Amt:EUR 69.84 Flex:reducible Desc:Coffee shop
+  [event_1611] Date:2026-02-11 Settled:2026-02-11 Status:settled Cat:dining Dir:debit Amt:EUR 92.92 Flex:reducible Desc:Neighbourhood restaurant
+  [event_1612] Date:2026-02-25 Settled:2026-02-25 Status:settled Cat:dining Dir:debit Amt:EUR 98.51 Flex:reducible Desc:Lunch with colleagues
+  [event_1613] Date:2026-03-11 Settled:2026-03-11 Status:settled Cat:dining Dir:debit Amt:EUR 108.96 Flex:reducible Desc:Quick-service meal
+  [event_1614] Date:2026-03-25 Settled:2026-03-25 Status:settled Cat:dining Dir:debit Amt:EUR 75.46 Flex:reducible Desc:Neighbourhood restaurant
+  [event_1615] Date:2026-04-08 Settled:2026-04-08 Status:settled Cat:dining Dir:debit Amt:EUR 66.71 Flex:reducible Desc:Coffee shop
+  [event_1616] Date:2026-04-22 Settled:2026-04-22 Status:settled Cat:dining Dir:debit Amt:EUR 103.86 Flex:reducible Desc:Family dinner
+  [event_1617] Date:2026-05-06 Settled:2026-05-06 Status:settled Cat:dining Dir:debit Amt:EUR 81.05 Flex:reducible Desc:Coffee shop
+  [event_1618] Date:2026-05-20 Settled:2026-05-20 Status:settled Cat:dining Dir:debit Amt:EUR 101.82 Flex:reducible Desc:Weekend food delivery
+  [event_1619] Date:2026-06-03 Settled:2026-06-03 Status:settled Cat:dining Dir:debit Amt:EUR 62.87 Flex:reducible Desc:Quick-service meal
+  [event_1620] Date:2026-06-17 Settled:2026-06-17 Status:settled Cat:dining Dir:debit Amt:EUR 82.67 Flex:reducible Desc:Lunch with colleagues
+  [event_1621] Date:2026-07-01 Settled:2026-07-01 Status:settled Cat:dining Dir:debit Amt:EUR 101.88 Flex:reducible Desc:Takeaway order
+----------------------------------------------------------------------
+=== USER: user_19 ===
+Profile: Curr=INR, StartBal=199545.0, MinBal=92800
+Considered Methods: partial_payment|installments
+Reducible: shopping | Stoppable: cloud_storage
+Events:
+  [event_1622] Date:2024-04-15 Settled:2024-04-15 Status:settled Cat:salary Dir:credit Amt:INR 131000.0 Flex:fixed Desc:Payroll credit
+  [event_1623] Date:2024-04-04 Settled:2024-04-04 Status:settled Cat:rent Dir:debit Amt:INR 36100.0 Flex:fixed Desc:Residential rent payment
+  [event_1624] Date:2024-04-08 Settled:2024-04-08 Status:settled Cat:utilities Dir:debit Amt:INR 6141.28 Flex:fixed Desc:Municipal utilities
+  [event_1625] Date:2024-04-13 Settled:2024-04-13 Status:settled Cat:debt_repayment Dir:debit Amt:INR 11850.0 Flex:fixed Desc:Loan repayment
+  [event_1626] Date:2024-04-12 Settled:2024-04-12 Status:settled Cat:healthcare Dir:debit Amt:INR 8946.09 Flex:fixed Desc:Clinic payment
+  [event_1627] Date:2024-04-15 Settled:2024-04-15 Status:settled Cat:family_support Dir:debit Amt:INR 12650.0 Flex:fixed Desc:Childcare contribution
+  [event_1628] Date:2024-04-14 Settled:2024-04-14 Status:settled Cat:cloud_storage Dir:debit Amt:INR 395.0 Flex:stoppable Desc:Online backup subscription
+  [event_1629] Date:2024-04-14 Settled:2024-04-14 Status:settled Cat:shopping Dir:debit Amt:INR 6302.66 Flex:reducible Desc:Clothing and household items
+  [event_1630] Date:2024-05-15 Settled:2024-05-15 Status:settled Cat:salary Dir:credit Amt:INR 131000.0 Flex:fixed Desc:Payroll credit
+  [event_1631] Date:2024-05-04 Settled:2024-05-04 Status:settled Cat:rent Dir:debit Amt:INR 36100.0 Flex:fixed Desc:Residential rent payment
+  [event_1632] Date:2024-05-08 Settled:2024-05-08 Status:settled Cat:utilities Dir:debit Amt:INR 5525.82 Flex:fixed Desc:Municipal utilities
+  [event_1633] Date:2024-05-13 Settled:2024-05-13 Status:settled Cat:debt_repayment Dir:debit Amt:INR 11850.0 Flex:fixed Desc:Loan repayment
+  [event_1634] Date:2024-05-12 Settled:2024-05-12 Status:settled Cat:healthcare Dir:debit Amt:INR 9619.88 Flex:fixed Desc:Clinic payment
+  [event_1635] Date:2024-05-15 Settled:2024-05-15 Status:settled Cat:family_support Dir:debit Amt:INR 12650.0 Flex:fixed Desc:Childcare contribution
+  [event_1636] Date:2024-05-14 Settled:2024-05-14 Status:settled Cat:cloud_storage Dir:debit Amt:INR 395.0 Flex:stoppable Desc:Online backup subscription
+  [event_1637] Date:2024-05-14 Settled:2024-05-14 Status:settled Cat:shopping Dir:debit Amt:INR 5593.2 Flex:reducible Desc:Clothing and household items
+  [event_1638] Date:2024-06-15 Settled:2024-06-15 Status:settled Cat:salary Dir:credit Amt:INR 131000.0 Flex:fixed Desc:Payroll credit
+  [event_1639] Date:2024-06-04 Settled:2024-06-04 Status:settled Cat:rent Dir:debit Amt:INR 36100.0 Flex:fixed Desc:Residential rent payment
+  [event_1640] Date:2024-06-08 Settled:2024-06-08 Status:settled Cat:utilities Dir:debit Amt:INR 6029.9 Flex:fixed Desc:Municipal utilities
+  [event_1641] Date:2024-06-13 Settled:2024-06-13 Status:settled Cat:debt_repayment Dir:debit Amt:INR 11850.0 Flex:fixed Desc:Loan repayment
+  [event_1642] Date:2024-06-12 Settled:2024-06-12 Status:settled Cat:healthcare Dir:debit Amt:INR 8335.2 Flex:fixed Desc:Clinic payment
+  [event_1643] Date:2024-06-15 Settled:2024-06-15 Status:settled Cat:family_support Dir:debit Amt:INR 12650.0 Flex:fixed Desc:Childcare contribution
+  [event_1644] Date:2024-06-14 Settled:2024-06-14 Status:settled Cat:cloud_storage Dir:debit Amt:INR 395.0 Flex:stoppable Desc:Online backup subscription
+  [event_1645] Date:2024-06-14 Settled:2024-06-14 Status:settled Cat:shopping Dir:debit Amt:INR 6069.58 Flex:reducible Desc:Clothing and household items
+  [event_1646] Date:2024-07-15 Settled:2024-07-15 Status:settled Cat:salary Dir:credit Amt:INR 131000.0 Flex:fixed Desc:Payroll credit
+  [event_1647] Date:2024-07-04 Settled:2024-07-04 Status:settled Cat:rent Dir:debit Amt:INR 36100.0 Flex:fixed Desc:Residential rent payment
+  [event_1648] Date:2024-07-08 Settled:2024-07-08 Status:settled Cat:utilities Dir:debit Amt:INR 5951.99 Flex:fixed Desc:Municipal utilities
+  [event_1649] Date:2024-07-13 Settled:2024-07-13 Status:settled Cat:debt_repayment Dir:debit Amt:INR 11850.0 Flex:fixed Desc:Loan repayment
+  [event_1650] Date:2024-07-12 Settled:2024-07-12 Status:settled Cat:healthcare Dir:debit Amt:INR 8496.34 Flex:fixed Desc:Clinic payment
+  [event_1651] Date:2024-07-15 Settled:2024-07-15 Status:settled Cat:family_support Dir:debit Amt:INR 12650.0 Flex:fixed Desc:Childcare contribution
+  [event_1652] Date:2024-07-14 Settled:2024-07-14 Status:settled Cat:cloud_storage Dir:debit Amt:INR 395.0 Flex:stoppable Desc:Online backup subscription
+  [event_1653] Date:2024-07-14 Settled:2024-07-14 Status:settled Cat:shopping Dir:debit Amt:INR 5772.78 Flex:reducible Desc:Clothing and household items
+  [event_1654] Date:2024-08-15 Settled:2024-08-15 Status:settled Cat:salary Dir:credit Amt:INR 131000.0 Flex:fixed Desc:Payroll credit
+  [event_1655] Date:2024-08-04 Settled:2024-08-04 Status:settled Cat:rent Dir:debit Amt:INR 36100.0 Flex:fixed Desc:Residential rent payment
+  [event_1656] Date:2024-08-08 Settled:2024-08-08 Status:settled Cat:utilities Dir:debit Amt:INR 6129.19 Flex:fixed Desc:Municipal utilities
+  [event_1657] Date:2024-08-13 Settled:2024-08-13 Status:settled Cat:debt_repayment Dir:debit Amt:INR 11850.0 Flex:fixed Desc:Loan repayment
+  [event_1658] Date:2024-08-12 Settled:2024-08-12 Status:settled Cat:healthcare Dir:debit Amt:INR 8645.36 Flex:fixed Desc:Clinic payment
+  [event_1659] Date:2024-08-15 Settled:2024-08-15 Status:settled Cat:family_support Dir:debit Amt:INR 12650.0 Flex:fixed Desc:Childcare contribution
+  [event_1660] Date:2024-08-14 Settled:2024-08-14 Status:settled Cat:cloud_storage Dir:debit Amt:INR 395.0 Flex:stoppable Desc:Online backup subscription
+  [event_1661] Date:2024-08-14 Settled:2024-08-14 Status:settled Cat:shopping Dir:debit Amt:INR 5431.12 Flex:reducible Desc:Clothing and household items
+  [event_1662] Date:2024-03-13 Settled:2024-03-13 Status:settled Cat:groceries Dir:debit Amt:INR 4418.91 Flex:fixed Desc:Local market purchase
+  [event_1663] Date:2024-03-20 Settled:2024-03-20 Status:settled Cat:groceries Dir:debit Amt:INR 4871.72 Flex:fixed Desc:Neighbourhood grocer
+  [event_1664] Date:2024-03-27 Settled:2024-03-27 Status:settled Cat:groceries Dir:debit Amt:INR 6070.85 Flex:fixed Desc:Fresh food shop
+  [event_1665] Date:2024-04-03 Settled:2024-04-03 Status:settled Cat:groceries Dir:debit Amt:INR 5452.26 Flex:fixed Desc:Local market purchase
+  [event_1666] Date:2024-04-10 Settled:2024-04-10 Status:settled Cat:groceries Dir:debit Amt:INR 5912.83 Flex:fixed Desc:Supermarket basket
+  [event_1667] Date:2024-04-17 Settled:2024-04-17 Status:settled Cat:groceries Dir:debit Amt:INR 3877.79 Flex:fixed Desc:Neighbourhood grocer
+  [event_1668] Date:2024-04-24 Settled:2024-04-24 Status:settled Cat:groceries Dir:debit Amt:INR 4056.71 Flex:fixed Desc:Fresh food shop
+  [event_1669] Date:2024-05-01 Settled:2024-05-01 Status:settled Cat:groceries Dir:debit Amt:INR 4744.13 Flex:fixed Desc:Grocery delivery
+  [event_1670] Date:2024-05-08 Settled:2024-05-08 Status:settled Cat:groceries Dir:debit Amt:INR 3593.25 Flex:fixed Desc:Grocery delivery
+  [event_1671] Date:2024-05-15 Settled:2024-05-15 Status:settled Cat:groceries Dir:debit Amt:INR 3852.58 Flex:fixed Desc:Fresh food shop
+  [event_1672] Date:2024-05-22 Settled:2024-05-22 Status:settled Cat:groceries Dir:debit Amt:INR 5406.2 Flex:fixed Desc:Bulk pantry shop
+  [event_1673] Date:2024-05-29 Settled:2024-05-29 Status:settled Cat:groceries Dir:debit Amt:INR 5542.84 Flex:fixed Desc:Bulk pantry shop
+  [event_1674] Date:2024-06-05 Settled:2024-06-05 Status:settled Cat:groceries Dir:debit Amt:INR 4738.95 Flex:fixed Desc:Bulk pantry shop
+  [event_1675] Date:2024-06-12 Settled:2024-06-12 Status:settled Cat:groceries Dir:debit Amt:INR 3575.19 Flex:fixed Desc:Household groceries
+  [event_1676] Date:2024-06-19 Settled:2024-06-19 Status:settled Cat:groceries Dir:debit Amt:INR 5146.94 Flex:fixed Desc:Grocery delivery
+  [event_1677] Date:2024-06-26 Settled:2024-06-26 Status:settled Cat:groceries Dir:debit Amt:INR 5908.15 Flex:fixed Desc:Local market purchase
+  [event_1678] Date:2024-07-03 Settled:2024-07-03 Status:settled Cat:groceries Dir:debit Amt:INR 4444.74 Flex:fixed Desc:Bulk pantry shop
+  [event_1679] Date:2024-07-10 Settled:2024-07-10 Status:settled Cat:groceries Dir:debit Amt:INR 4667.68 Flex:fixed Desc:Local market purchase
+  [event_1680] Date:2024-07-17 Settled:2024-07-17 Status:settled Cat:groceries Dir:debit Amt:INR 4493.39 Flex:fixed Desc:Household groceries
+  [event_1681] Date:2024-07-24 Settled:2024-07-24 Status:settled Cat:groceries Dir:debit Amt:INR 5184.21 Flex:fixed Desc:Bulk pantry shop
+  [event_1682] Date:2024-07-31 Settled:2024-07-31 Status:settled Cat:groceries Dir:debit Amt:INR 3460.53 Flex:fixed Desc:Local market purchase
+  [event_1683] Date:2024-08-07 Settled:2024-08-07 Status:settled Cat:groceries Dir:debit Amt:INR 6005.09 Flex:fixed Desc:Weekly produce market
+  [event_1684] Date:2024-08-14 Settled:2024-08-14 Status:settled Cat:groceries Dir:debit Amt:INR 4963.39 Flex:fixed Desc:Supermarket basket
+  [event_1685] Date:2024-08-21 Settled:2024-08-21 Status:settled Cat:groceries Dir:debit Amt:INR 4864.04 Flex:fixed Desc:Weekly produce market
+  [event_1686] Date:2024-08-28 Settled:2024-08-28 Status:settled Cat:groceries Dir:debit Amt:INR 4068.18 Flex:fixed Desc:Local market purchase
+  [event_1687] Date:2024-03-14 Settled:2024-03-14 Status:settled Cat:transport Dir:debit Amt:INR 3054.24 Flex:fixed Desc:Fuel refill
+  [event_1688] Date:2024-03-28 Settled:2024-03-28 Status:settled Cat:transport Dir:debit Amt:INR 3298.25 Flex:fixed Desc:Ride-hailing trip
+  [event_1689] Date:2024-04-11 Settled:2024-04-11 Status:settled Cat:transport Dir:debit Amt:INR 3476.92 Flex:fixed Desc:Parking and tolls
+  [event_1690] Date:2024-04-25 Settled:2024-04-25 Status:settled Cat:transport Dir:debit Amt:INR 3849.5 Flex:fixed Desc:Ride-hailing trip
+  [event_1691] Date:2024-05-09 Settled:2024-05-09 Status:settled Cat:transport Dir:debit Amt:INR 2640.96 Flex:fixed Desc:Fuel refill
+  [event_1692] Date:2024-05-23 Settled:2024-05-23 Status:settled Cat:transport Dir:debit Amt:INR 3432.81 Flex:fixed Desc:Rail pass
+  [event_1693] Date:2024-06-06 Settled:2024-06-06 Status:settled Cat:transport Dir:debit Amt:INR 2610.24 Flex:fixed Desc:Local taxi
+  [event_1694] Date:2024-06-20 Settled:2024-06-20 Status:settled Cat:transport Dir:debit Amt:INR 2788.22 Flex:fixed Desc:Rail pass
+  [event_1695] Date:2024-07-04 Settled:2024-07-04 Status:settled Cat:transport Dir:debit Amt:INR 3242.46 Flex:fixed Desc:Vehicle charging
+  [event_1696] Date:2024-07-18 Settled:2024-07-18 Status:settled Cat:transport Dir:debit Amt:INR 3659.94 Flex:fixed Desc:Parking and tolls
+  [event_1697] Date:2024-08-01 Settled:2024-08-01 Status:settled Cat:transport Dir:debit Amt:INR 2759.93 Flex:fixed Desc:Local taxi
+  [event_1698] Date:2024-08-15 Settled:2024-08-15 Status:settled Cat:transport Dir:debit Amt:INR 2462.29 Flex:fixed Desc:Local taxi
+  [event_1699] Date:2024-08-29 Settled:2024-08-29 Status:settled Cat:transport Dir:debit Amt:INR 2765.93 Flex:fixed Desc:Fuel refill
+  [event_1700] Date:2024-09-03 Settled:2024-09-03 Status:settled Cat:groceries Dir:debit Amt:INR nan Flex:fixed Desc:Delivered grocery order
+----------------------------------------------------------------------
+=== USER: user_21 ===
+Profile: Curr=USD, StartBal=3911.35, MinBal=1800
+Considered Methods: full_payment
+Reducible: dining|streaming|shopping | Stoppable: streaming|cloud_storage
+Events:
+  [event_1788] Date:2025-11-15 Settled:2025-11-15 Status:settled Cat:salary Dir:credit Amt:USD 2256.0 Flex:fixed Desc:Payroll credit
+  [event_1789] Date:2025-11-02 Settled:2025-11-02 Status:settled Cat:rent Dir:debit Amt:USD 718.8 Flex:fixed Desc:Residential rent payment
+  [event_1790] Date:2025-11-06 Settled:2025-11-06 Status:settled Cat:utilities Dir:debit Amt:USD 115.31 Flex:fixed Desc:Municipal utilities
+  [event_1791] Date:2025-11-12 Settled:2025-11-12 Status:settled Cat:cloud_storage Dir:debit Amt:USD 11.0 Flex:stoppable Desc:Online backup subscription
+  [event_1792] Date:2025-11-09 Settled:2025-11-09 Status:settled Cat:streaming Dir:debit Amt:USD 47.0 Flex:reducible_or_stoppable Desc:Streaming subscription
+  [event_1793] Date:2025-11-12 Settled:2025-11-12 Status:settled Cat:shopping Dir:debit Amt:USD 133.38 Flex:reducible Desc:Monthly shopping spend
+  [event_1794] Date:2025-12-15 Settled:2025-12-15 Status:settled Cat:salary Dir:credit Amt:USD 2256.0 Flex:fixed Desc:Payroll credit
+  [event_1795] Date:2025-12-02 Settled:2025-12-02 Status:settled Cat:rent Dir:debit Amt:USD 718.8 Flex:fixed Desc:Residential rent payment
+  [event_1796] Date:2025-12-06 Settled:2025-12-06 Status:settled Cat:utilities Dir:debit Amt:USD 123.72 Flex:fixed Desc:Municipal utilities
+  [event_1797] Date:2025-12-12 Settled:2025-12-12 Status:settled Cat:cloud_storage Dir:debit Amt:USD 11.0 Flex:stoppable Desc:Online backup subscription
+  [event_1798] Date:2025-12-09 Settled:2025-12-09 Status:settled Cat:streaming Dir:debit Amt:USD 47.0 Flex:reducible_or_stoppable Desc:Streaming subscription
+  [event_1799] Date:2025-12-12 Settled:2025-12-12 Status:settled Cat:shopping Dir:debit Amt:USD 115.86 Flex:reducible Desc:Monthly shopping spend
+  [event_1800] Date:2026-01-15 Settled:2026-01-15 Status:settled Cat:salary Dir:credit Amt:USD 2256.0 Flex:fixed Desc:Payroll credit
+  [event_1801] Date:2026-01-02 Settled:2026-01-02 Status:settled Cat:rent Dir:debit Amt:USD 718.8 Flex:fixed Desc:Residential rent payment
+  [event_1802] Date:2026-01-06 Settled:2026-01-06 Status:settled Cat:utilities Dir:debit Amt:USD 120.59 Flex:fixed Desc:Municipal utilities
+  [event_1803] Date:2026-01-12 Settled:2026-01-12 Status:settled Cat:cloud_storage Dir:debit Amt:USD 11.0 Flex:stoppable Desc:Online backup subscription
+  [event_1804] Date:2026-01-09 Settled:2026-01-09 Status:settled Cat:streaming Dir:debit Amt:USD 47.0 Flex:reducible_or_stoppable Desc:Streaming subscription
+  [event_1805] Date:2026-01-12 Settled:2026-01-12 Status:settled Cat:shopping Dir:debit Amt:USD 120.74 Flex:reducible Desc:Monthly shopping spend
+  [event_1806] Date:2026-02-15 Settled:2026-02-15 Status:settled Cat:salary Dir:credit Amt:USD 2256.0 Flex:fixed Desc:Payroll credit
+  [event_1807] Date:2026-02-02 Settled:2026-02-02 Status:settled Cat:rent Dir:debit Amt:USD 718.8 Flex:fixed Desc:Residential rent payment
+  [event_1808] Date:2026-02-06 Settled:2026-02-06 Status:settled Cat:utilities Dir:debit Amt:USD 122.18 Flex:fixed Desc:Municipal utilities
+  [event_1809] Date:2026-02-12 Settled:2026-02-12 Status:settled Cat:cloud_storage Dir:debit Amt:USD 11.0 Flex:stoppable Desc:Online backup subscription
+  [event_1810] Date:2026-02-09 Settled:2026-02-09 Status:settled Cat:streaming Dir:debit Amt:USD 47.0 Flex:reducible_or_stoppable Desc:Streaming subscription
+  [event_1811] Date:2026-02-12 Settled:2026-02-12 Status:settled Cat:shopping Dir:debit Amt:USD 115.71 Flex:reducible Desc:Monthly shopping spend
+  [event_1812] Date:2026-03-15 Settled:2026-03-15 Status:settled Cat:salary Dir:credit Amt:USD 2256.0 Flex:fixed Desc:Payroll credit
+  [event_1813] Date:2026-03-02 Settled:2026-03-02 Status:settled Cat:rent Dir:debit Amt:USD 718.8 Flex:fixed Desc:Residential rent payment
+  [event_1814] Date:2026-03-06 Settled:2026-03-06 Status:settled Cat:utilities Dir:debit Amt:USD 124.08 Flex:fixed Desc:Municipal utilities
+  [event_1815] Date:2026-03-12 Settled:2026-03-12 Status:settled Cat:cloud_storage Dir:debit Amt:USD 11.0 Flex:stoppable Desc:Online backup subscription
+  [event_1816] Date:2026-03-09 Settled:2026-03-09 Status:settled Cat:streaming Dir:debit Amt:USD 47.0 Flex:reducible_or_stoppable Desc:Streaming subscription
+  [event_1817] Date:2026-03-12 Settled:2026-03-12 Status:settled Cat:shopping Dir:debit Amt:USD 126.38 Flex:reducible Desc:Monthly shopping spend
+  [event_1818] Date:2026-04-02 Settled:2026-04-02 Status:settled Cat:rent Dir:debit Amt:USD 718.8 Flex:fixed Desc:Residential rent payment
+  [event_1819] Date:2025-10-08 Settled:2025-10-08 Status:settled Cat:groceries Dir:debit Amt:USD 65.93 Flex:fixed Desc:Bulk pantry shop
+  [event_1820] Date:2025-10-18 Settled:2025-10-18 Status:settled Cat:groceries Dir:debit Amt:USD 104.23 Flex:fixed Desc:Supermarket basket
+  [event_1821] Date:2025-10-28 Settled:2025-10-28 Status:settled Cat:groceries Dir:debit Amt:USD 92.12 Flex:fixed Desc:Weekly produce market
+  [event_1822] Date:2025-11-07 Settled:2025-11-07 Status:settled Cat:groceries Dir:debit Amt:USD 68.82 Flex:fixed Desc:Fresh food shop
+  [event_1823] Date:2025-11-17 Settled:2025-11-17 Status:settled Cat:groceries Dir:debit Amt:USD 95.62 Flex:fixed Desc:Household groceries
+  [event_1824] Date:2025-11-27 Settled:2025-11-27 Status:settled Cat:groceries Dir:debit Amt:USD 104.19 Flex:fixed Desc:Weekly produce market
+  [event_1825] Date:2025-12-07 Settled:2025-12-07 Status:settled Cat:groceries Dir:debit Amt:USD 72.06 Flex:fixed Desc:Fresh food shop
+  [event_1826] Date:2025-12-17 Settled:2025-12-17 Status:settled Cat:groceries Dir:debit Amt:USD 101.34 Flex:fixed Desc:Supermarket basket
+  [event_1827] Date:2025-12-27 Settled:2025-12-27 Status:settled Cat:groceries Dir:debit Amt:USD 84.7 Flex:fixed Desc:Weekly produce market
+  [event_1828] Date:2026-01-06 Settled:2026-01-06 Status:settled Cat:groceries Dir:debit Amt:USD 77.2 Flex:fixed Desc:Local market purchase
+  [event_1829] Date:2026-01-16 Settled:2026-01-16 Status:settled Cat:groceries Dir:debit Amt:USD 79.0 Flex:fixed Desc:Household groceries
+  [event_1830] Date:2026-01-26 Settled:2026-01-26 Status:settled Cat:groceries Dir:debit Amt:USD 66.13 Flex:fixed Desc:Bulk pantry shop
+  [event_1831] Date:2026-02-05 Settled:2026-02-05 Status:settled Cat:groceries Dir:debit Amt:USD 85.9 Flex:fixed Desc:Weekly produce market
+  [event_1832] Date:2026-02-15 Settled:2026-02-15 Status:settled Cat:groceries Dir:debit Amt:USD 90.57 Flex:fixed Desc:Fresh food shop
+  [event_1833] Date:2026-02-25 Settled:2026-02-25 Status:settled Cat:groceries Dir:debit Amt:USD 71.22 Flex:fixed Desc:Local market purchase
+  [event_1834] Date:2026-03-07 Settled:2026-03-07 Status:settled Cat:groceries Dir:debit Amt:USD 70.98 Flex:fixed Desc:Household groceries
+  [event_1835] Date:2026-03-17 Settled:2026-03-17 Status:settled Cat:groceries Dir:debit Amt:USD 77.75 Flex:fixed Desc:Fresh food shop
+  [event_1836] Date:2026-03-27 Settled:2026-03-27 Status:settled Cat:groceries Dir:debit Amt:USD 97.55 Flex:fixed Desc:Local market purchase
+  [event_1837] Date:2025-10-09 Settled:2025-10-09 Status:settled Cat:transport Dir:debit Amt:USD 38.96 Flex:fixed Desc:Commuter pass
+  [event_1838] Date:2025-10-30 Settled:2025-10-30 Status:settled Cat:transport Dir:debit Amt:USD 37.19 Flex:fixed Desc:Vehicle charging
+  [event_1839] Date:2025-11-20 Settled:2025-11-20 Status:settled Cat:transport Dir:debit Amt:USD 34.52 Flex:fixed Desc:Rail pass
+  [event_1840] Date:2025-12-11 Settled:2025-12-11 Status:settled Cat:transport Dir:debit Amt:USD 50.0 Flex:fixed Desc:Fuel refill
+  [event_1841] Date:2026-01-01 Settled:2026-01-01 Status:settled Cat:transport Dir:debit Amt:USD 40.66 Flex:fixed Desc:Local taxi
+  [event_1842] Date:2026-01-22 Settled:2026-01-22 Status:settled Cat:transport Dir:debit Amt:USD 33.38 Flex:fixed Desc:Parking and tolls
+  [event_1843] Date:2026-02-12 Settled:2026-02-12 Status:settled Cat:transport Dir:debit Amt:USD 51.42 Flex:fixed Desc:Parking and tolls
+  [event_1844] Date:2026-03-05 Settled:2026-03-05 Status:settled Cat:transport Dir:debit Amt:USD 47.84 Flex:fixed Desc:Local taxi
+  [event_1845] Date:2026-03-26 Settled:2026-03-26 Status:settled Cat:transport Dir:debit Amt:USD 36.86 Flex:fixed Desc:Rail pass
+  [event_1846] Date:2025-10-10 Settled:2025-10-10 Status:settled Cat:dining Dir:debit Amt:USD 82.43 Flex:reducible Desc:Takeaway order
+  [event_1847] Date:2025-10-31 Settled:2025-10-31 Status:settled Cat:dining Dir:debit Amt:USD 68.28 Flex:reducible Desc:Quick-service meal
+  [event_1848] Date:2025-11-21 Settled:2025-11-21 Status:settled Cat:dining Dir:debit Amt:USD 85.96 Flex:reducible Desc:Coffee shop
+  [event_1849] Date:2025-12-12 Settled:2025-12-12 Status:settled Cat:dining Dir:debit Amt:USD 60.18 Flex:reducible Desc:Bakery and snacks
+  [event_1850] Date:2026-01-02 Settled:2026-01-02 Status:settled Cat:dining Dir:debit Amt:USD 88.07 Flex:reducible Desc:Quick-service meal
+  [event_1851] Date:2026-01-23 Settled:2026-01-23 Status:settled Cat:dining Dir:debit Amt:USD 100.63 Flex:reducible Desc:Bakery and snacks
+  [event_1852] Date:2026-02-13 Settled:2026-02-13 Status:settled Cat:dining Dir:debit Amt:USD 97.67 Flex:reducible Desc:Takeaway order
+  [event_1853] Date:2026-03-06 Settled:2026-03-06 Status:settled Cat:dining Dir:debit Amt:USD 98.39 Flex:reducible Desc:Neighbourhood restaurant
+  [event_1854] Date:2026-03-27 Settled:2026-03-27 Status:settled Cat:dining Dir:debit Amt:USD 69.31 Flex:reducible Desc:Neighbourhood restaurant
+  [event_1855] Date:2025-12-29 Settled:2025-12-29 Status:settled Cat:investment Dir:debit Amt:USD 676.8 Flex:fixed Desc:Investment contribution
+  [event_1856] Date:2026-04-01 Settled:nan Status:unrealized Cat:investment Dir:non_cash Amt:USD 270.72 Flex:fixed Desc:Current portfolio valuation
+  [event_1857] Date:2026-04-02 Settled:2026-04-05 Status:pending Cat:transport Dir:debit Amt:USD 53.0 Flex:fixed Desc:Pending fuel authorization
+  [event_1858] Date:2026-04-15 Settled:2026-04-15 Status:scheduled Cat:salary Dir:credit Amt:USD 2256.0 Flex:fixed Desc:Next confirmed salary
+----------------------------------------------------------------------
+=== USER: user_23 ===
+Profile: Curr=ZAR, StartBal=51957.9, MinBal=27000
+Considered Methods: full_payment|partial_payment|installments
+Reducible: shopping | Stoppable: cloud_storage
+Events:
+  [event_1962] Date:2024-12-15 Settled:2024-12-15 Status:settled Cat:salary Dir:credit Amt:ZAR 45760.0 Flex:fixed Desc:Payroll credit
+  [event_1963] Date:2024-12-04 Settled:2024-12-04 Status:settled Cat:rent Dir:debit Amt:ZAR 15312.0 Flex:fixed Desc:Shared housing rent
+  [event_1964] Date:2024-12-08 Settled:2024-12-08 Status:settled Cat:utilities Dir:debit Amt:ZAR 2877.85 Flex:fixed Desc:Electricity bill
+  [event_1965] Date:2024-12-13 Settled:2024-12-13 Status:settled Cat:debt_repayment Dir:debit Amt:ZAR 5852.0 Flex:fixed Desc:Education loan instalment
+  [event_1966] Date:2024-12-12 Settled:2024-12-12 Status:settled Cat:healthcare Dir:debit Amt:ZAR 1341.05 Flex:fixed Desc:Clinic payment
+  [event_1967] Date:2024-12-15 Settled:2024-12-15 Status:settled Cat:family_support Dir:debit Amt:ZAR 4270.2 Flex:fixed Desc:Childcare contribution
+  [event_1968] Date:2024-12-14 Settled:2024-12-14 Status:settled Cat:cloud_storage Dir:debit Amt:ZAR 295.9 Flex:stoppable Desc:Cloud storage plan
+  [event_1969] Date:2024-12-14 Settled:2024-12-14 Status:settled Cat:shopping Dir:debit Amt:ZAR 1279.39 Flex:reducible Desc:Personal shopping
+  [event_1970] Date:2025-01-15 Settled:2025-01-15 Status:settled Cat:salary Dir:credit Amt:ZAR 45760.0 Flex:fixed Desc:Payroll credit
+  [event_1971] Date:2025-01-04 Settled:2025-01-04 Status:settled Cat:rent Dir:debit Amt:ZAR 15312.0 Flex:fixed Desc:Shared housing rent
+  [event_1972] Date:2025-01-08 Settled:2025-01-08 Status:settled Cat:utilities Dir:debit Amt:ZAR 2484.32 Flex:fixed Desc:Electricity bill
+  [event_1973] Date:2025-01-13 Settled:2025-01-13 Status:settled Cat:debt_repayment Dir:debit Amt:ZAR 5852.0 Flex:fixed Desc:Education loan instalment
+  [event_1974] Date:2025-01-12 Settled:2025-01-12 Status:settled Cat:healthcare Dir:debit Amt:ZAR 1331.22 Flex:fixed Desc:Clinic payment
+  [event_1975] Date:2025-01-15 Settled:2025-01-15 Status:settled Cat:family_support Dir:debit Amt:ZAR 4270.2 Flex:fixed Desc:Childcare contribution
+  [event_1976] Date:2025-01-14 Settled:2025-01-14 Status:settled Cat:cloud_storage Dir:debit Amt:ZAR 295.9 Flex:stoppable Desc:Cloud storage plan
+  [event_1977] Date:2025-01-14 Settled:2025-01-14 Status:settled Cat:shopping Dir:debit Amt:ZAR 1396.33 Flex:reducible Desc:Personal shopping
+  [event_1978] Date:2025-02-15 Settled:2025-02-15 Status:settled Cat:salary Dir:credit Amt:ZAR 45760.0 Flex:fixed Desc:Payroll credit
+  [event_1979] Date:2025-02-04 Settled:2025-02-04 Status:settled Cat:rent Dir:debit Amt:ZAR 15312.0 Flex:fixed Desc:Shared housing rent
+  [event_1980] Date:2025-02-08 Settled:2025-02-08 Status:settled Cat:utilities Dir:debit Amt:ZAR 2915.67 Flex:fixed Desc:Electricity bill
+  [event_1981] Date:2025-02-13 Settled:2025-02-13 Status:settled Cat:debt_repayment Dir:debit Amt:ZAR 5852.0 Flex:fixed Desc:Education loan instalment
+  [event_1982] Date:2025-02-12 Settled:2025-02-12 Status:settled Cat:healthcare Dir:debit Amt:ZAR 1439.91 Flex:fixed Desc:Clinic payment
+  [event_1983] Date:2025-02-15 Settled:2025-02-15 Status:settled Cat:family_support Dir:debit Amt:ZAR 4270.2 Flex:fixed Desc:Childcare contribution
+  [event_1984] Date:2025-02-14 Settled:2025-02-14 Status:settled Cat:cloud_storage Dir:debit Amt:ZAR 295.9 Flex:stoppable Desc:Cloud storage plan
+  [event_1985] Date:2025-02-14 Settled:2025-02-14 Status:settled Cat:shopping Dir:debit Amt:ZAR 1389.39 Flex:reducible Desc:Personal shopping
+  [event_1986] Date:2025-03-15 Settled:2025-03-15 Status:settled Cat:salary Dir:credit Amt:ZAR 45760.0 Flex:fixed Desc:Payroll credit
+  [event_1987] Date:2025-03-04 Settled:2025-03-04 Status:settled Cat:rent Dir:debit Amt:ZAR 15312.0 Flex:fixed Desc:Shared housing rent
+  [event_1988] Date:2025-03-08 Settled:2025-03-08 Status:settled Cat:utilities Dir:debit Amt:ZAR 2813.94 Flex:fixed Desc:Electricity bill
+  [event_1989] Date:2025-03-13 Settled:2025-03-13 Status:settled Cat:debt_repayment Dir:debit Amt:ZAR 5852.0 Flex:fixed Desc:Education loan instalment
+  [event_1990] Date:2025-03-12 Settled:2025-03-12 Status:settled Cat:healthcare Dir:debit Amt:ZAR 1317.68 Flex:fixed Desc:Clinic payment
+  [event_1991] Date:2025-03-15 Settled:2025-03-15 Status:settled Cat:family_support Dir:debit Amt:ZAR 4270.2 Flex:fixed Desc:Childcare contribution
+  [event_1992] Date:2025-03-14 Settled:2025-03-14 Status:settled Cat:cloud_storage Dir:debit Amt:ZAR 295.9 Flex:stoppable Desc:Cloud storage plan
+  [event_1993] Date:2025-03-14 Settled:2025-03-14 Status:settled Cat:shopping Dir:debit Amt:ZAR 1232.23 Flex:reducible Desc:Personal shopping
+  [event_1994] Date:2025-04-15 Settled:2025-04-15 Status:settled Cat:salary Dir:credit Amt:ZAR 45760.0 Flex:fixed Desc:Payroll credit
+  [event_1995] Date:2025-04-04 Settled:2025-04-04 Status:settled Cat:rent Dir:debit Amt:ZAR 15312.0 Flex:fixed Desc:Shared housing rent
+  [event_1996] Date:2025-04-08 Settled:2025-04-08 Status:settled Cat:utilities Dir:debit Amt:ZAR 2680.15 Flex:fixed Desc:Electricity bill
+  [event_1997] Date:2025-04-13 Settled:2025-04-13 Status:settled Cat:debt_repayment Dir:debit Amt:ZAR 5852.0 Flex:fixed Desc:Education loan instalment
+  [event_1998] Date:2025-04-12 Settled:2025-04-12 Status:settled Cat:healthcare Dir:debit Amt:ZAR 1377.89 Flex:fixed Desc:Clinic payment
+  [event_1999] Date:2025-04-15 Settled:2025-04-15 Status:settled Cat:family_support Dir:debit Amt:ZAR 4270.2 Flex:fixed Desc:Childcare contribution
+  [event_2000] Date:2025-04-14 Settled:2025-04-14 Status:settled Cat:cloud_storage Dir:debit Amt:ZAR 295.9 Flex:stoppable Desc:Cloud storage plan
+  [event_2001] Date:2025-04-14 Settled:2025-04-14 Status:settled Cat:shopping Dir:debit Amt:ZAR 1281.33 Flex:reducible Desc:Personal shopping
+  [event_2002] Date:2025-05-04 Settled:2025-05-04 Status:settled Cat:rent Dir:debit Amt:ZAR 15312.0 Flex:fixed Desc:Shared housing rent
+  [event_2003] Date:2024-11-13 Settled:2024-11-13 Status:settled Cat:groceries Dir:debit Amt:ZAR 1401.85 Flex:fixed Desc:Grocery delivery
+  [event_2004] Date:2024-11-20 Settled:2024-11-20 Status:settled Cat:groceries Dir:debit Amt:ZAR 1332.28 Flex:fixed Desc:Household groceries
+  [event_2005] Date:2024-11-27 Settled:2024-11-27 Status:settled Cat:groceries Dir:debit Amt:ZAR 1586.85 Flex:fixed Desc:Local market purchase
+  [event_2006] Date:2024-12-04 Settled:2024-12-04 Status:settled Cat:groceries Dir:debit Amt:ZAR 1372.64 Flex:fixed Desc:Supermarket basket
+  [event_2007] Date:2024-12-11 Settled:2024-12-11 Status:settled Cat:groceries Dir:debit Amt:ZAR 1821.15 Flex:fixed Desc:Neighbourhood grocer
+  [event_2008] Date:2024-12-18 Settled:2024-12-18 Status:settled Cat:groceries Dir:debit Amt:ZAR 2207.92 Flex:fixed Desc:Supermarket basket
+  [event_2009] Date:2024-12-25 Settled:2024-12-25 Status:settled Cat:groceries Dir:debit Amt:ZAR 1981.14 Flex:fixed Desc:Grocery delivery
+  [event_2010] Date:2025-01-01 Settled:2025-01-01 Status:settled Cat:groceries Dir:debit Amt:ZAR 2178.52 Flex:fixed Desc:Weekly produce market
+  [event_2011] Date:2025-01-08 Settled:2025-01-08 Status:settled Cat:groceries Dir:debit Amt:ZAR 1927.69 Flex:fixed Desc:Household groceries
+  [event_2012] Date:2025-01-15 Settled:2025-01-15 Status:settled Cat:groceries Dir:debit Amt:ZAR 2125.65 Flex:fixed Desc:Grocery delivery
+  [event_2013] Date:2025-01-22 Settled:2025-01-22 Status:settled Cat:groceries Dir:debit Amt:ZAR 1544.99 Flex:fixed Desc:Bulk pantry shop
+  [event_2014] Date:2025-01-29 Settled:2025-01-29 Status:settled Cat:groceries Dir:debit Amt:ZAR 1914.51 Flex:fixed Desc:Neighbourhood grocer
+  [event_2015] Date:2025-02-05 Settled:2025-02-05 Status:settled Cat:groceries Dir:debit Amt:ZAR 1421.88 Flex:fixed Desc:Local market purchase
+  [event_2016] Date:2025-02-12 Settled:2025-02-12 Status:settled Cat:groceries Dir:debit Amt:ZAR 1556.59 Flex:fixed Desc:Weekly produce market
+  [event_2017] Date:2025-02-19 Settled:2025-02-19 Status:settled Cat:groceries Dir:debit Amt:ZAR 2186.26 Flex:fixed Desc:Grocery delivery
+  [event_2018] Date:2025-02-26 Settled:2025-02-26 Status:settled Cat:groceries Dir:debit Amt:ZAR 2146.88 Flex:fixed Desc:Grocery delivery
+  [event_2019] Date:2025-03-05 Settled:2025-03-05 Status:settled Cat:groceries Dir:debit Amt:ZAR 1717.87 Flex:fixed Desc:Supermarket basket
+  [event_2020] Date:2025-03-12 Settled:2025-03-12 Status:settled Cat:groceries Dir:debit Amt:ZAR 2074.73 Flex:fixed Desc:Neighbourhood grocer
+  [event_2021] Date:2025-03-19 Settled:2025-03-19 Status:settled Cat:groceries Dir:debit Amt:ZAR 1372.44 Flex:fixed Desc:Supermarket basket
+  [event_2022] Date:2025-03-26 Settled:2025-03-26 Status:settled Cat:groceries Dir:debit Amt:ZAR 1706.85 Flex:fixed Desc:Household groceries
+  [event_2023] Date:2025-04-02 Settled:2025-04-02 Status:settled Cat:groceries Dir:debit Amt:ZAR 1487.69 Flex:fixed Desc:Bulk pantry shop
+  [event_2024] Date:2025-04-09 Settled:2025-04-09 Status:settled Cat:groceries Dir:debit Amt:ZAR 1794.76 Flex:fixed Desc:Bulk pantry shop
+  [event_2025] Date:2025-04-16 Settled:2025-04-16 Status:settled Cat:groceries Dir:debit Amt:ZAR 1678.37 Flex:fixed Desc:Neighbourhood grocer
+  [event_2026] Date:2025-04-23 Settled:2025-04-23 Status:settled Cat:groceries Dir:debit Amt:ZAR 1514.83 Flex:fixed Desc:Household groceries
+  [event_2027] Date:2025-04-30 Settled:2025-04-30 Status:settled Cat:groceries Dir:debit Amt:ZAR 1257.56 Flex:fixed Desc:Neighbourhood grocer
+  [event_2028] Date:2024-11-14 Settled:2024-11-14 Status:settled Cat:transport Dir:debit Amt:ZAR 682.68 Flex:fixed Desc:Rail pass
+  [event_2029] Date:2024-11-28 Settled:2024-11-28 Status:settled Cat:transport Dir:debit Amt:ZAR 1121.5 Flex:fixed Desc:Metro and bus fares
+  [event_2030] Date:2024-12-12 Settled:2024-12-12 Status:settled Cat:transport Dir:debit Amt:ZAR 747.69 Flex:fixed Desc:Parking and tolls
+  [event_2031] Date:2024-12-26 Settled:2024-12-26 Status:settled Cat:transport Dir:debit Amt:ZAR 777.57 Flex:fixed Desc:Vehicle charging
+  [event_2032] Date:2025-01-09 Settled:2025-01-09 Status:settled Cat:transport Dir:debit Amt:ZAR 896.02 Flex:fixed Desc:Metro and bus fares
+  [event_2033] Date:2025-01-23 Settled:2025-01-23 Status:settled Cat:transport Dir:debit Amt:ZAR 904.55 Flex:fixed Desc:Ride-hailing trip
+  [event_2034] Date:2025-02-06 Settled:2025-02-06 Status:settled Cat:transport Dir:debit Amt:ZAR 968.71 Flex:fixed Desc:Commuter pass
+  [event_2035] Date:2025-02-20 Settled:2025-02-20 Status:settled Cat:transport Dir:debit Amt:ZAR 1046.56 Flex:fixed Desc:Metro and bus fares
+  [event_2036] Date:2025-03-06 Settled:2025-03-06 Status:settled Cat:transport Dir:debit Amt:ZAR 738.21 Flex:fixed Desc:Parking and tolls
+  [event_2037] Date:2025-03-20 Settled:2025-03-20 Status:settled Cat:transport Dir:debit Amt:ZAR 956.01 Flex:fixed Desc:Commuter pass
+  [event_2038] Date:2025-04-03 Settled:2025-04-03 Status:settled Cat:transport Dir:debit Amt:ZAR 1092.98 Flex:fixed Desc:Ride-hailing trip
+  [event_2039] Date:2025-04-17 Settled:2025-04-17 Status:settled Cat:transport Dir:debit Amt:ZAR 834.0 Flex:fixed Desc:Parking and tolls
+  [event_2040] Date:2025-05-01 Settled:2025-05-01 Status:settled Cat:transport Dir:debit Amt:ZAR 783.18 Flex:fixed Desc:Metro and bus fares
+  [event_2041] Date:2025-02-01 Settled:2025-02-01 Status:settled Cat:investment Dir:debit Amt:ZAR 13728.0 Flex:fixed Desc:Investment contribution
+  [event_2042] Date:2025-05-06 Settled:2025-05-11 Status:pending Cat:healthcare Dir:debit Amt:ZAR 1553.2 Flex:fixed Desc:Pending pharmacy card charge
+----------------------------------------------------------------------

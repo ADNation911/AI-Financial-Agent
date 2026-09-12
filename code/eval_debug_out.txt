@@ -1,0 +1,175 @@
+=== request_01 (user_01) ===
+Request Date: 2024-03-03 | Type: purchase | Amt: 25256.0 | Desired: 2024-03-20
+PRED:     status=affordable_now, method=full_payment, safe_amt=25256.0, plan=2024-03-03:25256, earliest=2024-03-03, spending=none
+EXPECTED: status=affordable_now, method=full_payment, safe_amt=25256.0, plan=2024-03-03:25256, earliest=2024-03-03, spending=none
+EXPLANATION PRED: Pay ZAR 25,256 today. This leaves at least ZAR 18,000 available over the next 90 days.
+EXPLANATION EXP:  Pay ZAR 25,256 today. This leaves at least ZAR 18,000 available over the next 90 days.
+----------------------------------------------------------------------
+=== request_02 (user_02) ===
+Request Date: 2025-08-05 | Type: travel | Amt: 46018000.0 | Desired: 2025-10-10
+PRED:     status=not_affordable, method=not_recommended, safe_amt=29574389.200000003, plan=none, earliest=, spending=none
+EXPECTED: status=affordable_with_plan, method=installments, safe_amt=17229139.2, plan=2025-08-08:15952906.67|2025-09-07:15952906.67|2025-10-07:15952906.67, earliest=2025-09-15, spending=none
+EXPLANATION PRED: Do not make this payment by 10 October 2025. None of the available options keeps the IDR 29,158,400 minimum protected.
+EXPLANATION EXP:  Use 3 installments of IDR 15,952,906.67, starting 8 August 2025. This leaves at least IDR 29,158,400 available.
+----------------------------------------------------------------------
+=== request_03 (user_03) ===
+Request Date: 2019-09-03 | Type: education | Amt: 5491000.0 | Desired: 2019-11-15
+PRED:     status=not_affordable, method=not_recommended, safe_amt=3046600.0, plan=none, earliest=, spending=none
+EXPECTED: status=affordable_later, method=wait, safe_amt=873000.0, plan=2019-11-15:5491000, earliest=2019-11-15, spending=none
+EXPLANATION PRED: Do not make this payment by 15 November 2019. None of the available options keeps the IDR 2,668,700 minimum protected.
+EXPLANATION EXP:  Pay IDR 5,491,000 in full on 15 November 2019. Paying earlier would take the balance below the IDR 2,668,700 minimum.
+----------------------------------------------------------------------
+=== request_04 (user_04) ===
+Request Date: 2024-06-04 | Type: family_transfer | Amt: 12693000.0 | Desired: 2024-06-19
+PRED:     status=affordable_now, method=full_payment, safe_amt=12693000.0, plan=2024-06-04:12693000, earliest=2024-06-04, spending=none
+EXPECTED: status=affordable_later, method=wait, safe_amt=8401800.0, plan=2024-06-15:12693000, earliest=2024-06-15, spending=none
+EXPLANATION PRED: Pay IDR 12,693,000 today. This leaves at least IDR 30,686,600 available over the next 90 days.
+EXPLANATION EXP:  Wait until 15 June 2024, then pay IDR 12,693,000 in full. Paying sooner would put the IDR 30,686,600 minimum at risk.
+----------------------------------------------------------------------
+=== request_05 (user_05) ===
+Request Date: 2025-11-06 | Type: debt_repayment | Amt: 15488.0 | Desired: 2026-01-12
+PRED:     status=affordable_now, method=full_payment, safe_amt=15488.0, plan=2025-11-06:15488, earliest=2025-11-06, spending=none
+EXPECTED: status=not_affordable, method=not_recommended, safe_amt=737.0, plan=none, earliest=nan, spending=none
+EXPLANATION PRED: Pay ZAR 15,488 today. This leaves at least ZAR 13,100 available over the next 90 days.
+EXPLANATION EXP:  Do not make this payment by 12 January 2026. None of the available options keeps the ZAR 13,100 minimum protected.
+----------------------------------------------------------------------
+=== request_06 (user_06) ===
+Request Date: 2026-01-03 | Type: investment | Amt: 620.4 | Desired: 2026-01-14
+PRED:     status=affordable_now, method=full_payment, safe_amt=620.4, plan=2026-01-03:620.40, earliest=2026-01-03, spending=none
+EXPECTED: status=affordable_with_plan, method=full_payment, safe_amt=603.3, plan=2026-01-03:620.40, earliest=2026-01-15, spending=stop:event_476
+EXPLANATION PRED: Pay EUR 620.40 today. This leaves at least EUR 800 available over the next 90 days.
+EXPLANATION EXP:  Stop the family streaming plan, then pay EUR 620.40 today. This leaves at least EUR 800 available.
+----------------------------------------------------------------------
+=== request_07 (user_07) ===
+Request Date: 2024-09-05 | Type: housing | Amt: 197400.0 | Desired: 2024-11-14
+PRED:     status=not_affordable, method=not_recommended, safe_amt=125945.56, plan=none, earliest=, spending=none
+EXPECTED: status=affordable_with_plan, method=installments, safe_amt=87170.56, plan=2024-09-12:68432|2024-10-10:68432|2024-11-07:68432, earliest=2024-10-23, spending=none
+EXPLANATION PRED: Do not make this payment by 14 November 2024. None of the available options keeps the INR 93,000 minimum protected.
+EXPLANATION EXP:  Use 3 installments of INR 68,432, starting 12 September 2024. This leaves at least INR 93,000 available.
+----------------------------------------------------------------------
+=== request_08 (user_08) ===
+Request Date: 2025-02-07 | Type: emergency_expense | Amt: 996.6 | Desired: 2025-04-15
+PRED:     status=not_affordable, method=not_recommended, safe_amt=736.5699999999999, plan=none, earliest=, spending=none
+EXPECTED: status=affordable_later, method=wait, safe_amt=284.57, plan=2025-04-15:996.60, earliest=2025-04-15, spending=none
+EXPLANATION PRED: Do not make this payment by 15 April 2025. None of the available options keeps the EUR 800 minimum protected.
+EXPLANATION EXP:  Pay EUR 996.60 in full on 15 April 2025. Paying earlier would take the balance below the EUR 800 minimum.
+----------------------------------------------------------------------
+=== request_09 (user_09) ===
+Request Date: 2026-07-04 | Type: other | Amt: 166.61 | Desired: 2026-07-23
+PRED:     status=affordable_now, method=full_payment, safe_amt=166.61, plan=2026-07-04:166.61, earliest=2026-07-04, spending=none
+EXPECTED: status=affordable_now, method=full_payment, safe_amt=166.61, plan=2026-07-04:166.61, earliest=2026-07-04, spending=none
+EXPLANATION PRED: Pay EUR 166.61 today. This leaves at least EUR 600 available over the next 90 days.
+EXPLANATION EXP:  Pay EUR 166.61 today. This keeps the EUR 600 minimum available over the next 90 days.
+----------------------------------------------------------------------
+=== request_10 (user_10) ===
+Request Date: 2024-12-06 | Type: purchase | Amt: 266700.0 | Desired: 2025-02-10
+PRED:     status=not_affordable, method=not_recommended, safe_amt=266700.0, plan=none, earliest=2024-12-06, spending=none
+EXPECTED: status=not_affordable, method=not_recommended, safe_amt=12700.0, plan=none, earliest=nan, spending=none
+EXPLANATION PRED: Do not make this payment by 10 February 2025. None of the available options keeps the INR 225,400 minimum protected.
+EXPLANATION EXP:  Do not make this payment by 10 February 2025. None of the available options keeps the INR 225,400 minimum protected.
+----------------------------------------------------------------------
+=== request_11 (user_11) ===
+Request Date: 2025-05-03 | Type: travel | Amt: 13110000.0 | Desired: 2025-06-12
+PRED:     status=affordable_now, method=full_payment, safe_amt=13110000.0, plan=2025-05-03:13110000, earliest=2025-05-03, spending=none
+EXPECTED: status=affordable_with_plan, method=full_payment, safe_amt=12510645.0, plan=2025-05-03:13110000, earliest=2025-07-15, spending=reduce_to:event_989:665950
+EXPLANATION PRED: Pay IDR 13,110,000 today. This leaves at least IDR 34,140,600 available over the next 90 days.
+EXPLANATION EXP:  Reduce the weekend food delivery to IDR 665,950, then pay IDR 13,110,000 today. This leaves at least IDR 34,140,600 available.
+----------------------------------------------------------------------
+=== request_12 (user_12) ===
+Request Date: 2026-04-05 | Type: education | Amt: 65164.0 | Desired: 2026-06-20
+PRED:     status=affordable_with_plan, method=installments, safe_amt=65164.0, plan=2026-04-19:22590.19|2026-05-20:22590.19|2026-06-20:22590.19, earliest=2026-04-05, spending=none
+EXPECTED: status=affordable_with_plan, method=installments, safe_amt=65164.0, plan=2026-04-19:22590.19|2026-05-20:22590.19|2026-06-20:22590.19, earliest=2026-04-05, spending=none
+EXPLANATION PRED: Use 3 installments of ZAR 22,590.19, starting 19 April 2026. This leaves at least ZAR 43,200 available.
+EXPLANATION EXP:  Use 3 installments of ZAR 22,590.19, starting 19 April 2026. This leaves at least ZAR 43,200 available.
+----------------------------------------------------------------------
+=== request_13 (user_13) ===
+Request Date: 2024-03-07 | Type: family_transfer | Amt: 941.6 | Desired: 2024-05-15
+PRED:     status=affordable_now, method=full_payment, safe_amt=941.6, plan=2024-03-07:941.60, earliest=2024-03-07, spending=none
+EXPECTED: status=affordable_later, method=wait, safe_amt=433.4, plan=2024-05-15:941.60, earliest=2024-05-15, spending=none
+EXPLANATION PRED: Pay EUR 941.60 today. This leaves at least EUR 1,300 available over the next 90 days.
+EXPLANATION EXP:  Pay EUR 941.60 in full on 15 May 2024. Paying earlier would take the balance below the EUR 1,300 minimum.
+----------------------------------------------------------------------
+=== request_14 (user_14) ===
+Request Date: 2025-08-04 | Type: debt_repayment | Amt: 5414.2 | Desired: 2025-10-04
+PRED:     status=not_affordable, method=not_recommended, safe_amt=1731.7399999999998, plan=none, earliest=, spending=none
+EXPECTED: status=not_affordable, method=not_recommended, safe_amt=597.74, plan=none, earliest=nan, spending=none
+EXPLANATION PRED: Do not make this payment by 4 October 2025. None of the available options keeps the EUR 2,200 minimum protected.
+EXPLANATION EXP:  Do not proceed with the EUR 5,414.20 request. Although EUR 597.74 is available today, the full amount cannot be completed safely within 90 days.
+----------------------------------------------------------------------
+=== request_15 (user_15) ===
+Request Date: 2026-01-06 | Type: investment | Amt: 3685.0 | Desired: 2026-02-01
+PRED:     status=not_affordable, method=not_recommended, safe_amt=570.05, plan=none, earliest=, spending=none
+EXPECTED: status=not_affordable, method=not_recommended, safe_amt=83.05, plan=none, earliest=nan, spending=none
+EXPLANATION PRED: Do not make this payment by 1 February 2026. None of the available options keeps the EUR 1,200 minimum protected.
+EXPLANATION EXP:  Do not make this payment by 1 February 2026. None of the available options keeps the EUR 1,200 minimum protected.
+----------------------------------------------------------------------
+=== request_16 (user_16) ===
+Request Date: 2023-08-12 | Type: housing | Amt: 122500.0 | Desired: 2023-10-11
+PRED:     status=affordable_now, method=full_payment, safe_amt=122500.0, plan=2023-08-12:122500, earliest=2023-08-12, spending=none
+EXPECTED: status=affordable_now, method=full_payment, safe_amt=122500.0, plan=2023-08-12:122500, earliest=2023-08-12, spending=none
+EXPLANATION PRED: Pay INR 122,500 today. This leaves at least INR 122,400 available over the next 90 days.
+EXPLANATION EXP:  Pay INR 122,500 today. This leaves at least INR 122,400 available over the next 90 days.
+----------------------------------------------------------------------
+=== request_17 (user_17) ===
+Request Date: 2026-03-01 | Type: emergency_expense | Amt: 274600.0 | Desired: 2026-05-04
+PRED:     status=affordable_with_plan, method=installments, safe_amt=274600.0, plan=2026-03-01:95194.67|2026-03-31:95194.67|2026-04-30:95194.67, earliest=2026-03-01, spending=none
+EXPECTED: status=affordable_with_plan, method=installments, safe_amt=243849.58, plan=2026-03-01:95194.67|2026-03-31:95194.67|2026-04-30:95194.67, earliest=2026-03-15, spending=none
+EXPLANATION PRED: Use 3 installments of INR 95,194.67, starting 1 March 2026. This leaves at least INR 166,100 available.
+EXPLANATION EXP:  Use 3 installments of INR 95,194.67, starting 1 March 2026. This leaves at least INR 166,100 available.
+----------------------------------------------------------------------
+=== request_18 (user_18) ===
+Request Date: 2026-07-07 | Type: other | Amt: 3246.1 | Desired: 2026-09-15
+PRED:     status=not_affordable, method=not_recommended, safe_amt=1086.0, plan=none, earliest=, spending=none
+EXPECTED: status=affordable_later, method=wait, safe_amt=462.0, plan=2026-09-15:3246.10, earliest=2026-09-15, spending=none
+EXPLANATION PRED: Do not make this payment by 15 September 2026. None of the available options keeps the EUR 1,400 minimum protected.
+EXPLANATION EXP:  Pay EUR 3,246.10 in full on 15 September 2026. Paying earlier would take the balance below the EUR 1,400 minimum.
+----------------------------------------------------------------------
+=== request_19 (user_19) ===
+Request Date: 2024-09-04 | Type: purchase | Amt: 39660.0 | Desired: 2024-10-04
+PRED:     status=affordable_with_plan, method=installments, safe_amt=39660.0, plan=2024-09-04:20623.20|2024-10-02:20623.20, earliest=2024-09-04, spending=none
+EXPECTED: status=affordable_with_plan, method=partial_payment, safe_amt=28820.0, plan=2024-09-04:28820|2024-09-15:10840, earliest=2024-09-15, spending=none
+EXPLANATION PRED: Use 2 installments of INR 20,623.20, starting 4 September 2024. This leaves at least INR 92,800 available.
+EXPLANATION EXP:  Pay INR 28,820 today and the remaining INR 10,840 on 15 September 2024. This completes the full request and keeps the INR 92,800 minimum protected.
+----------------------------------------------------------------------
+=== request_20 (user_20) ===
+Request Date: 2026-02-07 | Type: travel | Amt: 303700.0 | Desired: 2026-02-22
+PRED:     status=not_affordable, method=not_recommended, safe_amt=32935.0, plan=none, earliest=, spending=none
+EXPECTED: status=not_affordable, method=not_recommended, safe_amt=5400.0, plan=none, earliest=nan, spending=none
+EXPLANATION PRED: Do not make this payment by 22 February 2026. None of the available options keeps the INR 64,500 minimum protected.
+EXPLANATION EXP:  Do not make this payment by 22 February 2026. None of the available options keeps the INR 64,500 minimum protected.
+----------------------------------------------------------------------
+=== request_21 (user_21) ===
+Request Date: 2026-04-03 | Type: education | Amt: 1574.4 | Desired: 2026-04-14
+PRED:     status=affordable_now, method=full_payment, safe_amt=1574.4, plan=2026-04-03:1574.40, earliest=2026-04-03, spending=none
+EXPECTED: status=affordable_with_plan, method=full_payment, safe_amt=1543.35, plan=2026-04-03:1574.40, earliest=2026-04-15, spending=stop:event_1815|reduce_to:event_1816:23.50
+EXPLANATION PRED: Pay USD 1,574.40 today. This leaves at least USD 1,800 available over the next 90 days.
+EXPLANATION EXP:  Stop the online backup subscription and reduce the streaming subscription to USD 23.50, then pay USD 1,574.40 today. This leaves at least USD 1,800 available.
+----------------------------------------------------------------------
+=== request_22 (user_22) ===
+Request Date: 2024-12-05 | Type: family_transfer | Amt: 731.5 | Desired: 2025-02-10
+PRED:     status=not_affordable, method=not_recommended, safe_amt=589.46, plan=none, earliest=, spending=none
+EXPECTED: status=affordable_with_plan, method=installments, safe_amt=475.46, plan=2024-12-08:253.59|2025-01-05:253.59|2025-02-02:253.59, earliest=2025-01-15, spending=none
+EXPLANATION PRED: Do not make this payment by 10 February 2025. None of the available options keeps the EUR 500 minimum protected.
+EXPLANATION EXP:  Use 3 installments of EUR 253.59, starting 8 December 2024. This leaves at least EUR 500 available.
+----------------------------------------------------------------------
+=== request_23 (user_23) ===
+Request Date: 2025-05-07 | Type: debt_repayment | Amt: 38016.0 | Desired: 2025-07-15
+PRED:     status=not_affordable, method=not_recommended, safe_amt=23404.700000000004, plan=none, earliest=, spending=none
+EXPECTED: status=affordable_later, method=wait, safe_amt=9152.0, plan=2025-07-15:38016, earliest=2025-07-15, spending=none
+EXPLANATION PRED: Do not make this payment by 15 July 2025. None of the available options keeps the ZAR 27,000 minimum protected.
+EXPLANATION EXP:  Pay ZAR 38,016 in full on 15 July 2025. Paying earlier would take the balance below the ZAR 27,000 minimum.
+----------------------------------------------------------------------
+=== request_24 (user_24) ===
+Request Date: 2026-01-04 | Type: investment | Amt: 109600.0 | Desired: 2026-02-08
+PRED:     status=not_affordable, method=not_recommended, safe_amt=32215.0, plan=none, earliest=, spending=none
+EXPECTED: status=not_affordable, method=not_recommended, safe_amt=13420.0, plan=none, earliest=nan, spending=none
+EXPLANATION PRED: Do not make this payment by 8 February 2026. None of the available options keeps the INR 51,000 minimum protected.
+EXPLANATION EXP:  Do not proceed with the INR 109,600 request. Although INR 13,420 is available today, the full amount cannot be completed safely within 90 days.
+----------------------------------------------------------------------
+=== request_25 (user_25) ===
+Request Date: 2024-03-06 | Type: housing | Amt: 60496000.0 | Desired: 2024-04-17
+PRED:     status=not_affordable, method=not_recommended, safe_amt=8683950.0, plan=none, earliest=, spending=none
+EXPECTED: status=not_affordable, method=not_recommended, safe_amt=1425000.0, plan=none, earliest=nan, spending=none
+EXPLANATION PRED: Do not make this payment by 17 April 2024. None of the available options keeps the IDR 23,379,100 minimum protected.
+EXPLANATION EXP:  Do not make this payment by 17 April 2024. None of the available options keeps the IDR 23,379,100 minimum protected.
+----------------------------------------------------------------------
